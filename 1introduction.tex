@@ -1,0 +1,19 @@
+\chapter{Introduction}
+\label{chapter:intro}
+After the web turning from 1.0 to 2.0 where the network as platform, spanning all connected devices. Unlike Web 1.0, applications are as treated continually-updated services that get better the more people use it. This is done by consuming and remixing data from multiple sources, including individual users, while providing their own data and services in a form that allows remixing by others. \cite{o2005web} 
+
+Web browsers are now commonly installed in smart electronic equipments such as computers, smart phones, and tablets which can connect to the Internet. With Microsoft related operating systems (OS) such as Windows 7 and Windows 8, there might be Internet Explorer installed; With Apple related OS, such as Mac OS X and iOS, there will be Safari installed; With Google related OS, such as Android, there will be a WebKit\footnote{http://www.webkit.org} based browser(s) installed. Additionally, users are free of options to choose other web browsers. 
+
+Typical contents, presented by web browsers, are text and multi-medias such as image, audio and video. These contents are stored in other computers connected by the Internet. My work started at this point: a browser directly communicates with an internet-enabled device. To make the work interesting, the device should have good interoperability i.e. it should be able to communicate with sensors and actuator, or even with other devices.
+
+\section{Problem and Solution}
+
+Usability is another important element that mentioned in Web 2.0. Web pages are not just pages that have simple colours, logos, and animation, but they are more like desktop application. Thus, Web pages are turning to Web applications. \cite{Lewis:2006:WEB:1217666.1217669}
+
+With the radical improvement of usability, Web applications contents have been presenting more dynamic. Data can be retrieved from multiple sources in real time and assembled on a single web application or page \cite{Lewis:2006:WEB:1217666.1217669}. A web browser, one of the user agents that retrieves contents identified by Uniform Resource Identifier (URI) \cite{ArchitectWorldWideWebVolumeOne}, is the gateway for users to the Internet.
+
+With the purpose of presenting wonderful contents to users, a web browser communicates with a web server to fetch the contents. The synchronisation between a browser and a web server is, traditionally, based on HTTP request. For example, there are polling or long-polling over XMLHttpRequest (or Ajax). When we use Ajax, we retrieve data from a remote server by sending an HTTP request; For more other data, the web browser sends other HTTP requests. This is what we defined the problem in the thesis: With Ajax, it increases the frequency of requesting the web server, with repeatedly connections and disconnections; or rises the workload of the web server to keep the requests open. The problem becomes severe when it happens in the scenario of Internet of Things (IoT) with a large amount of devices interconnected.
+
+However, this approach can radically improved by removing the redundant HTTP Requests. Then we transfer all data over a single TCP connection, which is what we called WebSockets. The goal of this technology is to provide a mechanism for browser-based applications that need two-way communication with servers that does not rely on opening multiple HTTP connections \cite{rfc64552012web}.
+
+In effort to solve the Ajax abuse, bidirectional and real-time communication problems in IoT, we provide a solution using WebSockets with its subprotocol, the WebSocket Application Messaging Protocol (WAMP). In the thesis, we simulated and visualised the behaviours of IoT devices over an HTML5 application using publish/subscribe (Pub/Sub) and Remote Procedure Call (RPC) pattens, providing by WAMP. These two pattens cover the two most important interaction in IoT: notification and commanding.

@@ -1,0 +1,55 @@
+\select@language {english}
+\select@language {english}
+\select@language {english}
+\select@language {english}
+\select@language {english}
+\contentsline {chapter}{Abbreviations and Acronyms}{4}{chapter*.1}
+\contentsline {chapter}{\numberline {1}Introduction}{7}{chapter.1}
+\contentsline {section}{\numberline {1.1}Problem and Solution}{7}{section.1.1}
+\contentsline {chapter}{\numberline {2}Background}{9}{chapter.2}
+\contentsline {section}{\numberline {2.1}Traditional Communication}{9}{section.2.1}
+\contentsline {section}{\numberline {2.2}The Internet of Things and WebSocket}{10}{section.2.2}
+\contentsline {section}{\numberline {2.3}WAMP}{11}{section.2.3}
+\contentsline {subsection}{\numberline {2.3.1}JSON}{11}{subsection.2.3.1}
+\contentsline {subsection}{\numberline {2.3.2}URI}{11}{subsection.2.3.2}
+\contentsline {section}{\numberline {2.4}Other Registered WebSocket Subprotocols}{12}{section.2.4}
+\contentsline {chapter}{\numberline {3}Internet Of Things}{14}{chapter.3}
+\contentsline {section}{\numberline {3.1}Definition}{14}{section.3.1}
+\contentsline {section}{\numberline {3.2}Things: The Bridge between Real World and Virtual World}{14}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}NFC and WSANs}{14}{subsection.3.2.1}
+\contentsline {subsection}{\numberline {3.2.2}Spime and Smart Items}{15}{subsection.3.2.2}
+\contentsline {section}{\numberline {3.3}Sensors and Actuators}{16}{section.3.3}
+\contentsline {section}{\numberline {3.4}Internet-based Communication Protocols and Standards}{17}{section.3.4}
+\contentsline {subsection}{\numberline {3.4.1}TCP, UDP and IP}{17}{subsection.3.4.1}
+\contentsline {subsection}{\numberline {3.4.2}HTTP}{17}{subsection.3.4.2}
+\contentsline {subsection}{\numberline {3.4.3}HTML5 and WebSockets}{19}{subsection.3.4.3}
+\contentsline {subsection}{\numberline {3.4.4}Internet-based Communication Protocols and Standards with IoT}{19}{subsection.3.4.4}
+\contentsline {chapter}{\numberline {4}Web Services for The Internet of Things}{23}{chapter.4}
+\contentsline {section}{\numberline {4.1}REST}{23}{section.4.1}
+\contentsline {section}{\numberline {4.2}SOAP}{25}{section.4.2}
+\contentsline {section}{\numberline {4.3}CoAP}{26}{section.4.3}
+\contentsline {section}{\numberline {4.4}MQTT}{26}{section.4.4}
+\contentsline {section}{\numberline {4.5}Comparison}{28}{section.4.5}
+\contentsline {chapter}{\numberline {5}Patterns for Web-based IoT Applications}{29}{chapter.5}
+\contentsline {section}{\numberline {5.1}RPC}{29}{section.5.1}
+\contentsline {section}{\numberline {5.2}Publish/Subscribe}{30}{section.5.2}
+\contentsline {section}{\numberline {5.3}Database-centric Approach}{32}{section.5.3}
+\contentsline {chapter}{\numberline {6}Design and Implementation of Sample IoT Services}{33}{chapter.6}
+\contentsline {section}{\numberline {6.1}Smart Lighting and Control Application}{33}{section.6.1}
+\contentsline {subsection}{\numberline {6.1.1}Components}{33}{subsection.6.1.1}
+\contentsline {subsection}{\numberline {6.1.2}Implementation of The Backend}{34}{subsection.6.1.2}
+\contentsline {subsection}{\numberline {6.1.3}Implementation of The Front-end}{36}{subsection.6.1.3}
+\contentsline {subsection}{\numberline {6.1.4}Overall Structure}{38}{subsection.6.1.4}
+\contentsline {subsection}{\numberline {6.1.5}The Role of Messaging Patterns}{38}{subsection.6.1.5}
+\contentsline {section}{\numberline {6.2}Social Network IoT Sensing Application}{40}{section.6.2}
+\contentsline {subsection}{\numberline {6.2.1}Features}{40}{subsection.6.2.1}
+\contentsline {subsection}{\numberline {6.2.2}Stack and Architecture}{40}{subsection.6.2.2}
+\contentsline {subsection}{\numberline {6.2.3}Retrieving Data}{42}{subsection.6.2.3}
+\contentsline {chapter}{\numberline {7}Evaluation}{43}{chapter.7}
+\contentsline {section}{\numberline {7.1}Origin and Justification}{43}{section.7.1}
+\contentsline {section}{\numberline {7.2}Tools and Setup}{44}{section.7.2}
+\contentsline {section}{\numberline {7.3}Simulation}{45}{section.7.3}
+\contentsline {section}{\numberline {7.4}Measurement}{45}{section.7.4}
+\contentsline {section}{\numberline {7.5}Scalability}{46}{section.7.5}
+\contentsline {section}{\numberline {7.6}Security}{48}{section.7.6}
+\contentsline {chapter}{\numberline {8}Future and Conclusion}{49}{chapter.8}

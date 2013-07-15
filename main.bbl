@@ -1,0 +1,231 @@
+\begin{thebibliography}{10}
+
+\bibitem{ArchitectWorldWideWebVolumeOne}
+{\sc acobs, Ian;~Walsh, N.}
+\newblock Architecture of the world wide web, volume one, 2004.
+
+\bibitem{ashton2009internet}
+{\sc Ashton, K.}
+\newblock That ‘internet of things’ thing.
+\newblock {\em RFiD Journal 22\/} (2009), 97--114.
+
+\bibitem{atzori2010internet}
+{\sc Atzori, L., Iera, A., and Morabito, G.}
+\newblock The internet of things: A survey.
+\newblock {\em Computer Networks 54}, 15 (2010), 2787--2805.
+
+\bibitem{booth2007web}
+{\sc Booth, D., and Liu, C.~K.}
+\newblock Web services description language (wsdl) version 2.0 part 0: Primer.
+\newblock {\em W3C Recommendation 26\/} (2007).
+
+\bibitem{christin2009wireless}
+{\sc Christin, D., Reinhardt, A., Mogre, P.~S., and Steinmetz, R.}
+\newblock Wireless sensor networks and the internet of things: Selected
+  challenges.
+\newblock {\em Proceedings of the 8th GI/ITG KuVS Fachgespr{\"a}ch Drahtlose
+  Sensornetze\/} (2009), 31--34.
+
+\bibitem{chui2010internet}
+{\sc Chui, M., L{\"o}ffler, M., and Roberts, R.}
+\newblock The internet of things.
+\newblock {\em McKinsey Quarterly 2\/} (2010), 1--9.
+
+\bibitem{colitti2011integrating}
+{\sc Colitti, W., Steenhaut, K., and De~Caro, N.}
+\newblock Integrating wireless sensor networks with the web.
+\newblock {\em Extending the Internet to Low powerand Lossy Networks (IP+ SN
+  2011)\/} (2011).
+
+\bibitem{comer2008computer}
+{\sc Comer, D.~E.}
+\newblock {\em Computer networks and internets}.
+\newblock Prentice Hall Press, 2008.
+
+\bibitem{crockford2006application}
+{\sc Crockford, D.}
+\newblock The application/json media type for javascript object notation
+  (json).
+
+\bibitem{culler2004guest}
+{\sc Culler, D., Estrin, D., and Srivastava, M.}
+\newblock Guest editors' introduction: overview of sensor networks.
+\newblock {\em Computer\/} (2004), 41--49.
+
+\bibitem{deering1998internet}
+{\sc Deering, S.~E.}
+\newblock Internet protocol, version 6 (ipv6) specification.
+
+\bibitem{dierks2008rfc}
+{\sc Dierks, T., and Rescorla, E.}
+\newblock Rfc 5246: The transport layer security (tls) protocol.
+\newblock {\em The Internet Engineering Task Force\/} (2008).
+
+\bibitem{fieldingrfc}
+{\sc Fielding, R., Gettys, J., Mogul, J., Frystyk, H., and Berners-Lee, T.}
+\newblock Rfc 2068: Hypertext transfer protocol—http/1.1, january 1997.
+\newblock {\em Status: PROPOSED STANDARD\/}.
+
+\bibitem{fielding1999hypertext}
+{\sc Fielding, R., Gettys, J., Mogul, J., Frystyk, H., Masinter, L., Leach, P.,
+  and Berners-Lee, T.}
+\newblock Hypertext transfer protocol--http/1.1, 1999.
+
+\bibitem{fielding2002principled}
+{\sc Fielding, R.~T., and Taylor, R.~N.}
+\newblock Principled design of the modern web architecture.
+\newblock {\em ACM Transactions on Internet Technology (TOIT) 2}, 2 (2002),
+  115--150.
+
+\bibitem{francesco2012storage}
+{\sc Francesco, M.~D., Li, N., Raj, M., and Das, S.~K.}
+\newblock A storage infrastructure for heterogeneous and multimedia data in the
+  internet of things.
+\newblock In {\em Green Computing and Communications (GreenCom), 2012 IEEE
+  International Conference on\/} (2012), IEEE, pp.~26--33.
+
+\bibitem{garrett2005ajax}
+{\sc Garrett, J.~J., et~al.}
+\newblock Ajax: A new approach to web applications, 2005.
+
+\bibitem{gudginsoap}
+{\sc Gudgin, M., Hadley, M., Mendelsohn, N., Moreau, J.-J., Nielsen, H.~F.,
+  Karmarkar, A., and Lafon, Y.}
+\newblock Soap version 1.2 part 1: Messaging framework. w3c recommendation,
+  2007.
+
+\bibitem{hammer2010oauth}
+{\sc Hammer-Lahav, E.}
+\newblock The oauth 1.0 protocol.
+
+\bibitem{hapner2012messagebroker}
+{\sc Hapner, M., and Suconic, C.}
+\newblock The messagebroker websocket subprotocol.
+
+\bibitem{hickson2009server}
+{\sc Hickson, I.}
+\newblock Server-sent events.
+\newblock {\em W3C Working Draft WD-eventsource-20091222, latest version
+  available at< http://www. w3. org/TR/eventsource\/} (2009).
+
+\bibitem{infso2008networked}
+{\sc INFSO, D.}
+\newblock Networked enterprise \& rfid infso g. 2 micro \& nanosystems, in
+  co-operation with the working group rfid of the etp eposs, internet of things
+  in 2020, roadmap for the future [r].
+\newblock {\em Information Society and Media, Tech. Rep\/} (2008).
+
+\bibitem{MQTTV31ProtocolSpec}
+{\sc International Business Machines Corporation~(IBM), E.}
+\newblock Mqtt v3.1 protocol specification, 2010.
+
+\bibitem{Lewis:2006:WEB:1217666.1217669}
+{\sc Lewis, D.}
+\newblock What is web 2.0?
+\newblock {\em Crossroads 13}, 1 (Sept. 2006), 3--3.
+
+\bibitem{lubbers2010html5}
+{\sc Lubbers, P., and Greco, F.}
+\newblock Html5 web sockets: A quantum leap in scalability for the web.
+\newblock {\em SOA World Magazine\/} (2010).
+
+\bibitem{Madlmayr:SecurityandPrivacy}
+{\sc Madlmayr, G., Langer, J., Kantner, C., and Scharinger, J.}
+\newblock Nfc devices: Security and privacy.
+\newblock In {\em Availability, Reliability and Security, 2008. ARES 08. Third
+  International Conference on\/} (march 2008), pp.~642 --647.
+
+\bibitem{masinter2005uniform}
+{\sc Masinter, L., Berners-Lee, T., and Fielding, R.~T.}
+\newblock Uniform resource identifier (uri): Generic syntax.
+
+\bibitem{nielsen1997network}
+{\sc Nielsen, H.~F., Gettys, J., Baird-Smith, A., Prud'hommeaux, E., Lie,
+  H.~W., and Lilley, C.}
+\newblock Network performance effects of http/1.1, css1, and png.
+\newblock In {\em ACM SIGCOMM Computer Communication Review\/} (1997), vol.~27,
+  ACM, pp.~155--166.
+
+\bibitem{o2005web}
+{\sc O’reilly, T.}
+\newblock What is web 2.0, 2005.
+
+\bibitem{postel1981internet}
+{\sc Postel, J.}
+\newblock Internet protocol.
+
+\bibitem{postel2003rfc}
+{\sc Postel, J.}
+\newblock Rfc 793: Transmission control protocol, september 1981.
+\newblock {\em Status: Standard\/} (2003).
+
+\bibitem{reynolds1994assigned}
+{\sc Reynolds, J., and Postel, J.}
+\newblock Assigned numbers.
+\newblock Tech. rep., STD 2, RFC 1700, October, 1994.
+
+\bibitem{rfc64552012web}
+{\sc RFC6455, I.}
+\newblock The web socket protocol, 2012.
+
+\bibitem{rodriguez2008restful}
+{\sc Rodriguez, A.}
+\newblock Restful web services: The basics.
+\newblock {\em Online article in IBM DeveloperWorks Technical Library 36\/}
+  (2008).
+
+\bibitem{shelby2013constrained}
+{\sc Shelby, Z., Hartke, K., and Bormann, C.}
+\newblock Constrained application protocol (coap).
+
+\bibitem{smith2011free}
+{\sc Smith, L., and Lipner, I.}
+\newblock Free pool of ipv4 address space depleted.
+\newblock {\em Online (February 2011), February\/} (2011).
+
+\bibitem{snell2009programming}
+{\sc Snell, J., Tidwell, D., and Kulchenko, P.}
+\newblock {\em Programming Web services with SOAP}.
+\newblock O'Reilly Media, 2009.
+
+\bibitem{spero1994analysis}
+{\sc Spero, S.}
+\newblock Analysis of http performance problems, 1994.
+
+\bibitem{srinivasan1995rpc}
+{\sc Srinivasan, R.}
+\newblock Rpc: Remote procedure call protocol specification version 2.
+
+\bibitem{stankovic2008sensor}
+{\sc Stankovic, J.~A.}
+\newblock When sensor and actuator networks cover the world.
+\newblock {\em ETRI journal 30}, 5 (2008), 627--633.
+
+\bibitem{sterling2005shaping}
+{\sc Sterling, B.}
+\newblock Shaping things.
+
+\bibitem{vasseur2010interconnecting}
+{\sc Vasseur, J.-P., and Dunkels, A.}
+\newblock {\em Interconnecting smart objects with ip: The next internet}.
+\newblock Morgan Kaufmann, 2010.
+
+\bibitem{vermesan2011internet}
+{\sc Vermesan, O., Friess, P., Guillemin, P., Gusmeroli, S., Sundmaeker, H.,
+  Bassi, A., Jubert, I.~S., Mazura, M., Harrison, M., Eisenhauer, M., et~al.}
+\newblock Internet of things strategic research roadmap.
+\newblock {\em Internet of Things-Global Technological and Societal Trends\/}
+  (2011), 9--52.
+
+\bibitem{wang2012definitive}
+{\sc Wang, V., Salim, F., and Moskovits, P.}
+\newblock {\em The Definitive Guide to HTML5 WebSocket}.
+\newblock Apress, 2012.
+
+\bibitem{wu2010research}
+{\sc Wu, M., Lu, T.-J., Ling, F.-Y., Sun, J., and Du, H.-Y.}
+\newblock Research on the architecture of internet of things.
+\newblock In {\em Advanced Computer Theory and Engineering (ICACTE), 2010 3rd
+  International Conference on\/} (2010), vol.~5, IEEE, pp.~V5--484.
+
+\end{thebibliography}

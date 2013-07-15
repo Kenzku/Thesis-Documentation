@@ -1,0 +1,59 @@
+This is BibTeX, Version 0.99d (TeX Live 2011)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: main.aux
+The style file: acm.bst
+Database file #1: sources.bib
+Warning--empty journal in crockford2006application
+Warning--empty journal in deering1998internet
+Warning--empty year in fieldingrfc
+Warning--empty journal in gudginsoap
+Warning--empty journal in hammer2010oauth
+Warning--empty journal in hapner2012messagebroker
+Warning--empty journal in masinter2005uniform
+Warning--can't use both volume and number fields in nielsen1997network
+Warning--empty journal in postel1981internet
+Warning--empty journal in shelby2013constrained
+Warning--empty journal in srinivasan1995rpc
+Warning--empty journal in sterling2005shaping
+You've used 45 entries,
+            2253 wiz_defined-function locations,
+            742 strings with 10164 characters,
+and the built_in function-call counts, 12659 in all, are:
+= -- 1174
+> -- 660
+< -- 0
++ -- 281
+- -- 228
+* -- 881
+:= -- 2154
+add.period$ -- 118
+call.type$ -- 45
+change.case$ -- 244
+chr.to.int$ -- 0
+cite$ -- 57
+duplicate$ -- 460
+empty$ -- 982
+format.name$ -- 228
+if$ -- 2565
+int.to.chr$ -- 0
+int.to.str$ -- 45
+missing$ -- 41
+newline$ -- 211
+num.names$ -- 90
+pop$ -- 281
+preamble$ -- 1
+purify$ -- 202
+quote$ -- 0
+skip$ -- 315
+stack$ -- 0
+substring$ -- 532
+swap$ -- 110
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 172
+warning$ -- 12
+while$ -- 119
+width$ -- 47
+write$ -- 404
+(There were 12 warnings)
