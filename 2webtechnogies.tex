@@ -1,7 +1,63 @@
-\chapter{Background}
-\label{chapter:background} 
+\chapter{Web Technologies}
+\label{chapter:WebTechnologies} 
 
 The WebSocket Protocol enables full-duplex communication through a single socket between a client and a remote server. For this reason, this technology decreases the amount of opening ports on server sides, comparing with the traditional mean of retrieving resource. Moreover, this protocol is not just an enhancement of the current HTTP protocol; it, however, represents enormous advance, especially for real-time, event-driven communication \cite{lubbers2010html5}.
+
+\section{Internet-based Communication Protocols and Standards}
+
+\subsection{TCP, UDP and IP}
+Transmission Control Protocol (TCP), one of the two major transport-layer protocols, provides a reliable bi-directional communication \cite{comer2008computer}. TCP addresses the communication problem between applications with the following major features: 
+
+\begin{itemize}
+% You can use this command to set the items in the list closer to each other
+% (ITEM SEParation, the vertical space between the list items) 
+\setlength{\itemsep}{0pt}
+\item Transferring Data over a connection 
+\item Connecting two endpoints
+\item Data is received the same as it is delivered
+\item Data is sent in sequence
+\item Reliable startup and shutdown
+\end{itemize}
+
+User Datagram Protocol (UDP) is the other major transport-layer protocol used in the Internet \cite{comer2008computer}. Compared with TCP, UDP is less complex and thus less reliable. For example, UDP is connectionless, meaning a message can be sent between two endpoints without prior arrangement; UDP sends and receives individual messages, meaning it does not divide a message into multiple parts.
+
+Internet Protocol (IP) provides a communication mechanism for computers or devices \cite{postel1981internet}. IP distinguishes each computer or device in network by a unique 32-bits number known as Internet Protocol Address (IP address). TCP or UDP packets are usually encapsulated into IP packets.
+
+\subsection{HTTP}
+
+Hypertext Transfer Protocol (HTTP) is an application layer protocol exchanging or transferring contents, such as hypertext, in request/response pattern \cite{fielding1999hypertext}. HTTP is assigned to port number 80 over either TCP or UDP connection \cite{reynolds1994assigned}. HTTP communication, however, usually is established over TCP/IP connections with the default port TCP 80. HTTP can be also established other protocol, such as unreliable UDP.
+
+When a browser requests resources from a server, usually the browser sends a HTTP request to the server. Then the server answers with an HTTP response. Before HTTP 1.1, a pair of request/response is, usually, sent in a single TCP connection. Generally, a TCP connection is expensive to create, while most HTTP 1.0 or older connections use TCP at least efficiency, which leads to congestion and unwanted overhead \cite{spero1994analysis}.  To improve this, HTTP provides connection reuse mechanism \cite{fieldingrfc} by using Keep-Alive in general headers. This mechanism has been further improved in HTTP 1.1, and thus all connections are set to persistency by default. This mechanism aims for reducing CPU and memory usage, pipelining, reducing network congestion, reducing latency the frequency of TCP opening handshakes and error reported improvement. With pipelining, the performance of HTTP 1.1 can be largely improved compared with HTTP 1.0. \cite{nielsen1997network}. 
+
+At this point, HTTP persistent connections seem to be perfect and the WebSocket protocol is unnecessary. The HTTP persistent connection, however, is restricted by its practical consideration. Firstly, Servers are, usually, maintained by setting time-out value. Consequently, the mechanism kills idle connections. e.g. Apache 2.0 server will set the timeout at 15 seconds by default \footnote{http://httpd.apache.org/docs/2.0/mod/core.html\#keepalivetimeout}, while Apache 2.2 reduces the amount down to 5 seconds\footnote{http://httpd.apache.org/docs/2.2/mod/core.html\#keepalivetimeout}. Additionally, this implies that both clients and servers need to be capable to recover from any closed events and subsequently indicates delay in communication. Secondly, any client that use persistent connections is instructed to limit the number of simultaneous connections that they maintain to a given server at the maximum of two, for the purpose of improving HTTP response time and avoiding congestion. 
+
+For a browser, in order to synchronise the information with a web server, normally, there are polling or long-polling over Ajax. When we use Ajax, we retrieve data from a remote server by sending an HTTP Request; and if we would like to retrieve more data, we need to send other HTTP Requests. HTTP request/response will, finally, confront with the fact that it increases the frequency of requesting the web server, with repeatedly connections and disconnections; or increases the workload of the web server to keep the requests open. The problem becomes severe when it happens in the scenario of Internet of Things (IoT) with a large amount of devices interconnected. Figure \ref{fig:client-server-http} illustrates sequence diagram where a client (browser) fetches data from a server using HTTP.
+
+\begin{figure}[ht]
+  \begin{center}
+    \includegraphics[width=1\textwidth]{images/client-server-http.pdf}
+    \caption{A Client Fetches Data from A Server with HTTP}
+    \label{fig:client-server-http}
+  \end{center}
+\end{figure}
+
+
+However, this approach can radically improved by removing the redundant HTTP Requests. Then we transfer all data over a single TCP connection. This is what we called the WebSocket Protocol. We will expand more about the WebSocket Protocol in Subsection \ref{HTML5andWebSockets}.
+
+\subsection{HTML5 and WebSockets}
+\label{HTML5andWebSockets}
+
+HTML5 is hypernym that consist of a large number of web technology \cite{wang2012definitive}. HTML5 covers the following area: new semantics, new CSS styling, multimedia, Graphics \& 3D, Device Access, Performance, offline \& storage and connectivity. Amount all, the connectivity consists of communication technology such as Web Real-Time Communications (WebRTC), Server-Sent Events (SSE), Cross-Document messaging and WebSocket. WebRTC\footnote{http://www.webrtc.org/reference/architecture} provides realtime multimedia communication on web without requiring plugins; SSE provides an API for a browser to receive pushing notification from a server via an HTTP connection \cite{hickson2009server}; While Cross-Document messaging or Web Messaging largely expands the possibility and capability of communication of web browsers with least side-effect on security and privacy. Cross-Document messaging is designed to overcome the same-origin policy.
+
+The goal of WebSocket technology is to provide a mechanism for browser-based applications that need two-way communication with servers that does not rely on opening multiple HTTP connections (e.g. using XMLHttpRequest or <iframe>s and long polling) \footnote{http://www.websocket.org}. Older web technology, like HTTP, remains inefficiencies problems \cite{wang2012definitive}. Firstly, it is not natively designed for nowadays Web Applications with rich contents and interactive demands; Secondly, overheads and unnecessary information cumulate swiftly as the interaction between the client and server continues. WebSocket improves communication problems by solving the above problems, while keeping simplicity. Both WebRTC and WebSocket are in effort to enhance the real-time communication. WebRTC provides APIs that allow web browsers communicate with each other directly, while WebSocket provides the real-time communication mechanism between a client and a server. Figure \ref{fig:client-server-ws} illustrates sequence diagram where a client (browser) fetches data from a server using WebSockets.
+
+\begin{figure}[ht]
+  \begin{center}
+    \includegraphics[width=1\textwidth]{images/client-server-ws.pdf}
+    \caption{A Client Fetches Data from A Server with WebSockets}
+    \label{fig:client-server-ws}
+  \end{center}
+\end{figure}
 
 \section{Traditional Communication}
 

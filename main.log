@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=pdflatex 2012.4.20)  15 JUL 2013 21:07
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=pdflatex 2012.4.20)  15 JUL 2013 21:48
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1064,7 +1064,7 @@ LaTeX Info: Redefining \nameref on input line 392.
  [1
 
 {/usr/local/texlive/2011/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-<images/aalto-logo-en.pdf, id=223, 302.3837pt x 132.96776pt>
+<images/aalto-logo-en.pdf, id=219, 302.3837pt x 132.96776pt>
 File: images/aalto-logo-en.pdf Graphic file (type pdf)
 
 <use images/aalto-logo-en.pdf>
@@ -1076,13 +1076,7 @@ Package pdftex.def Info: images/aalto-logo-en.pdf used on input line 417.
 (./acronyms.tex) [4
 
 
-] (./main.toc
-Overfull \hbox (6.51952pt too wide) in paragraph at lines 26--26
- [][] [][]\OT1/cmr/m/n/12 Internet-based Com-mu-ni-ca-tion Pro-to-cols and Stan
--dards 
- []
-
-[5
+] (./main.toc [5
 
 
 ])
@@ -1094,333 +1088,341 @@ Chapter 1.
 [7
 
 
-]) (./2background.tex [8]
+]) (./2webtechnogies.tex [8]
 Chapter 2.
 
-Overfull \hbox (3.77322pt too wide) in paragraph at lines 8--9
+Overfull \hbox (0.46577pt too wide) in paragraph at lines 6--6
+ |[]\OT1/cmr/bx/n/17.28 Internet-based Com-mu-ni-ca-tion Pro-to-cols
+ []
+
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 15.
+(/usr/local/texlive/2011/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 15.
+ [9
+
+] [10]
+<images/client-server-http.pdf, id=350, 486.81876pt x 534.99875pt>
+File: images/client-server-http.pdf Graphic file (type pdf)
+
+<use images/client-server-http.pdf>
+Package pdftex.def Info: images/client-server-http.pdf used on input line 38.
+(pdftex.def)             Requested size: 390.0pt x 428.5955pt.
+ [11]
+<images/client-server-ws.pdf, id=363, 486.81876pt x 534.99875pt>
+File: images/client-server-ws.pdf Graphic file (type pdf)
+
+<use images/client-server-ws.pdf>
+Package pdftex.def Info: images/client-server-ws.pdf used on input line 56.
+(pdftex.def)             Requested size: 390.0pt x 428.5955pt.
+
+Overfull \hbox (3.77322pt too wide) in paragraph at lines 64--65
 \OT1/cmr/m/n/12 where the server does not ac-tively com-mu-ni-cate with clients
 . The client/server
  []
 
-[9
-
-] [10] [11]
-Overfull \hbox (12.03474pt too wide) in paragraph at lines 44--45
+[12] [13]
+Overfull \hbox (12.03474pt too wide) in paragraph at lines 100--101
 \OT1/cmr/m/n/12 Apart from WAMP, there are Mes-sage-Bro-ker Web-Socket Sub-pro-
 to-col (MBWS),
  []
 
-[12]
-Underfull \hbox (badness 10000) in paragraph at lines 72--72
+[14]
+Underfull \hbox (badness 10000) in paragraph at lines 128--128
 []|\OT1/cmr/bx/n/12 Data
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 72--72
+Underfull \hbox (badness 10000) in paragraph at lines 128--128
 \OT1/cmr/bx/n/12 Rep-re-sen-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 74--74
+Underfull \hbox (badness 10000) in paragraph at lines 130--130
 []|\OT1/cmr/bx/n/12 Message
  []
 
 
-Overfull \hbox (4.31375pt too wide) in paragraph at lines 79--79
+Overfull \hbox (4.31375pt too wide) in paragraph at lines 135--135
 []|\OT1/cmr/bx/n/12 Connection
  []
 
 
-Overfull \hbox (8.14209pt too wide) in paragraph at lines 61--87
+Overfull \hbox (8.14209pt too wide) in paragraph at lines 117--143
 [][] 
  []
 
-) (./2internetofthings.tex [13]
+) (./3internetofthings.tex [15] [16] [17 <./images/client-server-http.pdf>]
+[18 <./images/client-server-ws.pdf>]
 Chapter 3.
-[14
+[19
 
-] [15]
+] [20]
 Overfull \hbox (0.46577pt too wide) in paragraph at lines 41--41
  |[]\OT1/cmr/bx/n/17.28 Internet-based Com-mu-ni-ca-tion Pro-to-cols
  []
 
-[16]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 50.
- (/usr/local/texlive/2011/texmf-dist/tex/latex/base/omscmr.fd
-File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
-)
-LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 50.
- [17]
-<images/client-server-http.pdf, id=428, 486.81876pt x 534.99875pt>
-File: images/client-server-http.pdf Graphic file (type pdf)
-
-<use images/client-server-http.pdf>
-Package pdftex.def Info: images/client-server-http.pdf used on input line 73.
-(pdftex.def)             Requested size: 390.0pt x 428.5955pt.
- [18]
-<images/client-server-ws.pdf, id=442, 486.81876pt x 534.99875pt>
-File: images/client-server-ws.pdf Graphic file (type pdf)
-
-<use images/client-server-ws.pdf>
-Package pdftex.def Info: images/client-server-ws.pdf used on input line 91.
-(pdftex.def)             Requested size: 390.0pt x 428.5955pt.
-
-Overfull \hbox (18.63783pt too wide) in paragraph at lines 97--97
- |[]\OT1/cmr/bx/n/14.4 Internet-based Com-mu-ni-ca-tion Pro-to-cols and Stan-
- []
-
-[19]) (./3webservicesfortheiot.tex [20] [21 <./images/client-server-http.pdf>]
-[22 <./images/client-server-ws.pdf>]
-Chapter 4.
-[23
-
-] <images/stateless-design.pdf, id=504, 1004.75375pt x 305.14pt>
+[21] [22] <images/stateless-design.pdf, id=495, 1004.75375pt x 305.14pt>
 File: images/stateless-design.pdf Graphic file (type pdf)
 
 <use images/stateless-design.pdf>
-Package pdftex.def Info: images/stateless-design.pdf used on input line 20.
+Package pdftex.def Info: images/stateless-design.pdf used on input line 78.
 (pdftex.def)             Requested size: 390.0pt x 118.44072pt.
-
-<images/stateful-design.pdf, id=508, 1022.82124pt x 305.14pt>
+ [23]
+<images/stateful-design.pdf, id=507, 1022.82124pt x 305.14pt>
 File: images/stateful-design.pdf Graphic file (type pdf)
 
 <use images/stateful-design.pdf>
-Package pdftex.def Info: images/stateful-design.pdf used on input line 32.
+Package pdftex.def Info: images/stateful-design.pdf used on input line 90.
 (pdftex.def)             Requested size: 390.0pt x 116.3455pt.
- [24 <./images/stateless-design.pdf>] [25 <./images/stateful-design.pdf>]
-<images/http-and-coap-stack.pdf, id=557, 599.23875pt x 353.32pt>
+ [24 <./images/stateless-design.pdf> <./images/stateful-design.pdf>] [25]
+<images/http-and-coap-stack.pdf, id=553, 599.23875pt x 353.32pt>
 File: images/http-and-coap-stack.pdf Graphic file (type pdf)
 
 <use images/http-and-coap-stack.pdf>
-Package pdftex.def Info: images/http-and-coap-stack.pdf used on input line 64.
+Package pdftex.def Info: images/http-and-coap-stack.pdf used on input line 122.
+
 (pdftex.def)             Requested size: 390.0pt x 229.9518pt.
 
-Overfull \hbox (4.3114pt too wide) in paragraph at lines 70--71
+Overfull \hbox (4.3114pt too wide) in paragraph at lines 128--129
 []\OT1/cmr/m/n/12 CoAP re-lies on UDP. More-over, CoAP can-not com-mu-ni-cate w
 ith a browser
  []
 
-[26] [27 <./images/http-and-coap-stack.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 109--109
+[26 <./images/http-and-coap-stack.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 167--167
 []|\OT1/cmr/bx/n/12 Transport
  []
 
 
-Overfull \hbox (1.00334pt too wide) in paragraph at lines 120--120
+Overfull \hbox (1.00334pt too wide) in paragraph at lines 178--178
  []|\OT1/cmr/m/n/12 request/response 
  []
 
 
-Overfull \hbox (18.50485pt too wide) in paragraph at lines 98--128
+Overfull \hbox (18.50485pt too wide) in paragraph at lines 156--186
 [][] 
  []
 
-) (./4Patterns-for-web-based-IoT-applications.tex [28]
-Chapter 5.
-<images/RPC-pattern.pdf, id=591, 695.59875pt x 453.695pt>
+) (./4design-and-implementation-of-web-based-IoT-applications.tex [27] [28]
+Chapter 4.
+
+Overfull \hbox (42.35918pt too wide) in paragraph at lines 1--1
+|\OT1/cmr/bx/n/24.88 Design and Im-ple-men-ta-tion of Web-
+ []
+
+<images/RPC-pattern.pdf, id=586, 695.59875pt x 453.695pt>
 File: images/RPC-pattern.pdf Graphic file (type pdf)
 
 <use images/RPC-pattern.pdf>
-Package pdftex.def Info: images/RPC-pattern.pdf used on input line 11.
+Package pdftex.def Info: images/RPC-pattern.pdf used on input line 14.
 (pdftex.def)             Requested size: 390.0pt x 254.37207pt.
  [29
 
-] [30 <./images/RPC-pattern.pdf>]
-<images/publish-subscribe-pattern.pdf, id=615, 997.7275pt x 453.695pt>
+]
+Overfull \hbox (101.53683pt too wide) has occurred while \output is active
+\OT1/cmr/m/sl/12 CHAPTER 4.  DESIGN AND IMPLEMENTATION OF WEB-BASED IOT APPLICA
+TIONS \OT1/cmr/m/n/12 30
+ []
+
+[30 <./images/RPC-pattern.pdf>]
+<images/publish-subscribe-pattern.pdf, id=610, 997.7275pt x 453.695pt>
 File: images/publish-subscribe-pattern.pdf Graphic file (type pdf)
 
 <use images/publish-subscribe-pattern.pdf>
 Package pdftex.def Info: images/publish-subscribe-pattern.pdf used on input lin
-e 31.
+e 34.
 (pdftex.def)             Requested size: 390.0pt x 177.34186pt.
- [31 <./images/publish-subscribe-pattern.pdf>]) (./5Design-and-implementation-o
-f-sample-IoT-services.tex [32]
-Chapter 6.
 
-Overfull \hbox (39.94026pt too wide) in paragraph at lines 1--1
-|\OT1/cmr/bx/n/24.88 Design and Im-ple-men-ta-tion of Sam-
+Overfull \hbox (101.53683pt too wide) has occurred while \output is active
+\OT1/cmr/m/sl/12 CHAPTER 4.  DESIGN AND IMPLEMENTATION OF WEB-BASED IOT APPLICA
+TIONS \OT1/cmr/m/n/12 31
  []
 
-<images/components-relationship.pdf, id=642, 1008.76875pt x 198.7425pt>
+[31 <./images/publish-subscribe-pattern.pdf>]
+Overfull \hbox (101.53683pt too wide) has occurred while \output is active
+\OT1/cmr/m/sl/12 CHAPTER 4.  DESIGN AND IMPLEMENTATION OF WEB-BASED IOT APPLICA
+TIONS \OT1/cmr/m/n/12 32
+ []
+
+[32] <images/components-relationship.pdf, id=637, 1008.76875pt x 198.7425pt>
 File: images/components-relationship.pdf Graphic file (type pdf)
 
 <use images/components-relationship.pdf>
 Package pdftex.def Info: images/components-relationship.pdf used on input line 
-10.
+57.
 (pdftex.def)             Requested size: 390.0pt x 76.83603pt.
- [33
 
- <./images/components-relationship.pdf>] <images/component-layer-structure.pdf,
- id=661, 298.11375pt x 423.5825pt>
+<images/component-layer-structure.pdf, id=639, 298.11375pt x 423.5825pt>
 File: images/component-layer-structure.pdf Graphic file (type pdf)
 
 <use images/component-layer-structure.pdf>
 Package pdftex.def Info: images/component-layer-structure.pdf used on input lin
-e 21.
+e 68.
 (pdftex.def)             Requested size: 195.0pt x 277.07047pt.
 
-Overfull \hbox (46.06795pt too wide) has occurred while \output is active
-\OT1/cmr/m/sl/12 CHAPTER 6.  DESIGN AND IMPLEMENTATION OF SAMPLE IOT SERVICES \
-OT1/cmr/m/n/12 34
+Overfull \hbox (101.53683pt too wide) has occurred while \output is active
+\OT1/cmr/m/sl/12 CHAPTER 4.  DESIGN AND IMPLEMENTATION OF WEB-BASED IOT APPLICA
+TIONS \OT1/cmr/m/n/12 33
+ []
+
+[33 <./images/components-relationship.pdf>]
+Overfull \hbox (101.53683pt too wide) has occurred while \output is active
+\OT1/cmr/m/sl/12 CHAPTER 4.  DESIGN AND IMPLEMENTATION OF WEB-BASED IOT APPLICA
+TIONS \OT1/cmr/m/n/12 34
  []
 
 [34 <./images/component-layer-structure.pdf>]
-<images/component-interface.pdf, id=680, 663.47874pt x 707.64375pt>
+<images/component-interface.pdf, id=675, 663.47874pt x 707.64375pt>
 File: images/component-interface.pdf Graphic file (type pdf)
 
 <use images/component-interface.pdf>
-Package pdftex.def Info: images/component-interface.pdf used on input line 62.
+Package pdftex.def Info: images/component-interface.pdf used on input line 109.
+
 (pdftex.def)             Requested size: 272.99881pt x 291.1724pt.
 
-<images/component-nodeJS-interface.pdf, id=682, 1008.76875pt x 431.6125pt>
+<images/component-nodeJS-interface.pdf, id=677, 1008.76875pt x 431.6125pt>
 File: images/component-nodeJS-interface.pdf Graphic file (type pdf)
 
 <use images/component-nodeJS-interface.pdf>
 Package pdftex.def Info: images/component-nodeJS-interface.pdf used on input li
-ne 72.
+ne 119.
 (pdftex.def)             Requested size: 390.0pt x 166.86612pt.
 
-Overfull \hbox (46.06795pt too wide) has occurred while \output is active
-\OT1/cmr/m/sl/12 CHAPTER 6.  DESIGN AND IMPLEMENTATION OF SAMPLE IOT SERVICES \
-OT1/cmr/m/n/12 35
+Overfull \hbox (101.53683pt too wide) has occurred while \output is active
+\OT1/cmr/m/sl/12 CHAPTER 4.  DESIGN AND IMPLEMENTATION OF WEB-BASED IOT APPLICA
+TIONS \OT1/cmr/m/n/12 35
  []
 
-[35]
-Overfull \hbox (46.06795pt too wide) has occurred while \output is active
-\OT1/cmr/m/sl/12 CHAPTER 6.  DESIGN AND IMPLEMENTATION OF SAMPLE IOT SERVICES \
-OT1/cmr/m/n/12 36
- []
-
-[36 <./images/component-interface.pdf>]
-<images/front-end-layer-structure.pdf, id=707, 297.11pt x 247.92625pt>
+[35] <images/front-end-layer-structure.pdf, id=686, 297.11pt x 247.92625pt>
 File: images/front-end-layer-structure.pdf Graphic file (type pdf)
 
 <use images/front-end-layer-structure.pdf>
 Package pdftex.def Info: images/front-end-layer-structure.pdf used on input lin
-e 93.
+e 140.
 (pdftex.def)             Requested size: 195.0pt x 162.72768pt.
 
-Overfull \hbox (46.06795pt too wide) has occurred while \output is active
-\OT1/cmr/m/sl/12 CHAPTER 6.  DESIGN AND IMPLEMENTATION OF SAMPLE IOT SERVICES \
-OT1/cmr/m/n/12 37
- []
-
-[37 <./images/component-nodeJS-interface.pdf> <./images/front-end-layer-structu
-re.pdf>]
-<images/communication-structure-with-user.pdf, id=739, 1017.8025pt x 674.52pt>
+<images/communication-structure-with-user.pdf, id=688, 1017.8025pt x 674.52pt>
 File: images/communication-structure-with-user.pdf Graphic file (type pdf)
 
 <use images/communication-structure-with-user.pdf>
 Package pdftex.def Info: images/communication-structure-with-user.pdf used on i
-nput line 104.
+nput line 151.
 (pdftex.def)             Requested size: 390.0pt x 258.46106pt.
 
-<images/message-pattern-overall-structure.pdf, id=741, 1009.7725pt x 669.50125p
+Overfull \hbox (101.53683pt too wide) has occurred while \output is active
+\OT1/cmr/m/sl/12 CHAPTER 4.  DESIGN AND IMPLEMENTATION OF WEB-BASED IOT APPLICA
+TIONS \OT1/cmr/m/n/12 36
+ []
+
+[36 <./images/component-interface.pdf>]
+<images/message-pattern-overall-structure.pdf, id=708, 1009.7725pt x 669.50125p
 t>
 File: images/message-pattern-overall-structure.pdf Graphic file (type pdf)
  <use images/message-pattern-overall-structure.pdf>
 Package pdftex.def Info: images/message-pattern-overall-structure.pdf used on i
-nput line 117.
+nput line 164.
 (pdftex.def)             Requested size: 390.0pt x 258.58115pt.
 
-Overfull \hbox (46.06795pt too wide) has occurred while \output is active
-\OT1/cmr/m/sl/12 CHAPTER 6.  DESIGN AND IMPLEMENTATION OF SAMPLE IOT SERVICES \
-OT1/cmr/m/n/12 38
+Overfull \hbox (101.53683pt too wide) has occurred while \output is active
+\OT1/cmr/m/sl/12 CHAPTER 4.  DESIGN AND IMPLEMENTATION OF WEB-BASED IOT APPLICA
+TIONS \OT1/cmr/m/n/12 37
  []
 
-[38 <./images/communication-structure-with-user.pdf>]
-Overfull \hbox (46.06795pt too wide) has occurred while \output is active
-\OT1/cmr/m/sl/12 CHAPTER 6.  DESIGN AND IMPLEMENTATION OF SAMPLE IOT SERVICES \
-OT1/cmr/m/n/12 39
+[37 <./images/component-nodeJS-interface.pdf>]
+Overfull \hbox (101.53683pt too wide) has occurred while \output is active
+\OT1/cmr/m/sl/12 CHAPTER 4.  DESIGN AND IMPLEMENTATION OF WEB-BASED IOT APPLICA
+TIONS \OT1/cmr/m/n/12 38
  []
 
-[39 <./images/message-pattern-overall-structure.pdf>]
-Overfull \hbox (8.46405pt too wide) in paragraph at lines 142--143
+[38 <./images/front-end-layer-structure.pdf>]
+Overfull \hbox (8.46405pt too wide) in paragraph at lines 189--190
 \OT1/cmr/m/n/12 HTML5 ap-pli-ca-tion served di-rectly from CouchDB. CouchDB is 
 a documented-
  []
 
-<images/data-centre-app-stack.pdf, id=778, 244.915pt x 173.64874pt>
+<images/data-centre-app-stack.pdf, id=745, 244.915pt x 173.64874pt>
 File: images/data-centre-app-stack.pdf Graphic file (type pdf)
 
 <use images/data-centre-app-stack.pdf>
-Package pdftex.def Info: images/data-centre-app-stack.pdf used on input line 14
-6.
+Package pdftex.def Info: images/data-centre-app-stack.pdf used on input line 19
+3.
 (pdftex.def)             Requested size: 195.0pt x 138.26205pt.
 
-Overfull \hbox (46.06795pt too wide) has occurred while \output is active
-\OT1/cmr/m/sl/12 CHAPTER 6.  DESIGN AND IMPLEMENTATION OF SAMPLE IOT SERVICES \
-OT1/cmr/m/n/12 40
+Overfull \hbox (101.53683pt too wide) has occurred while \output is active
+\OT1/cmr/m/sl/12 CHAPTER 4.  DESIGN AND IMPLEMENTATION OF WEB-BASED IOT APPLICA
+TIONS \OT1/cmr/m/n/12 39
  []
 
-[40]
-Overfull \hbox (10.68892pt too wide) in paragraph at lines 154--155
+[39 <./images/communication-structure-with-user.pdf>]
+Overfull \hbox (10.68892pt too wide) in paragraph at lines 201--202
 []\OT1/cmr/m/n/12 CouchApp in-her-ited these fea-tures from CouchDB. Fur-ther-m
 ore, CouchApp
  []
 
-<images/data-centre-architecture.pdf, id=786, 959.585pt x 275.0275pt>
+<images/data-centre-architecture.pdf, id=764, 959.585pt x 275.0275pt>
 File: images/data-centre-architecture.pdf Graphic file (type pdf)
 
 <use images/data-centre-architecture.pdf>
 Package pdftex.def Info: images/data-centre-architecture.pdf used on input line
- 160.
+ 207.
 (pdftex.def)             Requested size: 390.0pt x 111.78pt.
 
-Overfull \hbox (46.06795pt too wide) has occurred while \output is active
-\OT1/cmr/m/sl/12 CHAPTER 6.  DESIGN AND IMPLEMENTATION OF SAMPLE IOT SERVICES \
-OT1/cmr/m/n/12 41
+Overfull \hbox (101.53683pt too wide) has occurred while \output is active
+\OT1/cmr/m/sl/12 CHAPTER 4.  DESIGN AND IMPLEMENTATION OF WEB-BASED IOT APPLICA
+TIONS \OT1/cmr/m/n/12 40
+ []
+
+[40 <./images/message-pattern-overall-structure.pdf>]) (./5evaluation.tex
+Overfull \hbox (101.53683pt too wide) has occurred while \output is active
+\OT1/cmr/m/sl/12 CHAPTER 4.  DESIGN AND IMPLEMENTATION OF WEB-BASED IOT APPLICA
+TIONS \OT1/cmr/m/n/12 41
  []
 
 [41 <./images/data-centre-app-stack.pdf> <./images/data-centre-architecture.pdf
->]) (./6evaluation.tex
-Overfull \hbox (46.06795pt too wide) has occurred while \output is active
-\OT1/cmr/m/sl/12 CHAPTER 6.  DESIGN AND IMPLEMENTATION OF SAMPLE IOT SERVICES \
-OT1/cmr/m/n/12 42
- []
+>]
+Chapter 5.
+[42
 
-[42]
-Chapter 7.
-[43
-
-] [44] <images/overhead.pdf, id=831, 578.16pt x 433.62pt>
+] [43] <images/overhead.pdf, id=822, 578.16pt x 433.62pt>
 File: images/overhead.pdf Graphic file (type pdf)
 
 <use images/overhead.pdf>
 Package pdftex.def Info: images/overhead.pdf used on input line 44.
 (pdftex.def)             Requested size: 390.0pt x 292.4956pt.
- [45] <images/rtt.pdf, id=838, 578.16pt x 433.62pt>
+ [44] <images/rtt.pdf, id=829, 578.16pt x 433.62pt>
 File: images/rtt.pdf Graphic file (type pdf)
 
 <use images/rtt.pdf>
 Package pdftex.def Info: images/rtt.pdf used on input line 56.
 (pdftex.def)             Requested size: 390.0pt x 292.4956pt.
- [46 <./images/overhead.pdf>] [47 <./images/rtt.pdf>])
-(./7future-and-conclusion.tex [48]
-Chapter 8.
-[49
+ [45 <./images/overhead.pdf>] [46 <./images/rtt.pdf>])
+(./6conclusion.tex [47]
+Chapter 6.
+[48
 
-]) (./main.bbl [50] [51
+]) (./main.bbl [49] [50
 
-] [52] [53]) AED: lastpage setting LastPage 
-[54]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 532.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 532.
+] [51] [52]) AED: lastpage setting LastPage 
+[53]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 528.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 528.
  (./main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 532.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 532.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 528.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 528.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 05B13DACAF546C2EC757C8C3189DEA9C;3681.
+(rerunfilecheck)             Checksum: 7DEFD0EDC119552F7BD86C9200CBF527;3660.
  ) 
 Here is how much of TeX's memory you used:
- 19709 strings out of 493633
- 373437 string characters out of 3143377
- 513011 words of memory out of 3000000
- 22383 multiletter control sequences out of 15000+200000
+ 19699 strings out of 493633
+ 373251 string characters out of 3143377
+ 513957 words of memory out of 3000000
+ 22381 multiletter control sequences out of 15000+200000
  11945 words of font info for 43 fonts, out of 3000000 for 9000
  833 hyphenation exceptions out of 8191
- 56i,12n,57p,1166b,608s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 56i,12n,57p,1163b,608s stack positions out of 5000i,500n,10000p,200000b,50000s
 </usr/local/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
 ></usr/local/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb
 ></usr/local/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><
@@ -1431,10 +1433,10 @@ al/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl12.pfb></usr/loca
 l/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local
 /texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/
 texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on main.pdf (54 pages, 4340029 bytes).
+Output written on main.pdf (53 pages, 4340148 bytes).
 PDF statistics:
- 984 PDF objects out of 1000 (max. 8388607)
- 745 compressed objects within 8 object streams
- 176 named destinations out of 1000 (max. 500000)
- 524 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 974 PDF objects out of 1000 (max. 8388607)
+ 736 compressed objects within 8 object streams
+ 174 named destinations out of 1000 (max. 500000)
+ 516 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -3,50 +3,49 @@
 \BOOKMARK [0][]{bookmark.0.contents.0}{Contents}{}% 3
 \BOOKMARK [0][]{chapter.1}{1 Introduction}{}% 4
 \BOOKMARK [1][-]{section.1.1}{1.1 Problem and Solution}{chapter.1}% 5
-\BOOKMARK [0][]{chapter.2}{2 Background}{}% 6
-\BOOKMARK [1][-]{section.2.1}{2.1 Traditional Communication}{chapter.2}% 7
-\BOOKMARK [1][-]{section.2.2}{2.2 The Internet of Things and WebSocket}{chapter.2}% 8
-\BOOKMARK [1][-]{section.2.3}{2.3 WAMP}{chapter.2}% 9
-\BOOKMARK [2][-]{subsection.2.3.1}{2.3.1 JSON}{section.2.3}% 10
-\BOOKMARK [2][-]{subsection.2.3.2}{2.3.2 URI}{section.2.3}% 11
-\BOOKMARK [1][-]{section.2.4}{2.4 Other Registered WebSocket Subprotocols}{chapter.2}% 12
-\BOOKMARK [0][]{chapter.3}{3 Internet Of Things}{}% 13
-\BOOKMARK [1][-]{section.3.1}{3.1 Definition}{chapter.3}% 14
-\BOOKMARK [1][-]{section.3.2}{3.2 Things: The Bridge between Real World and Virtual World}{chapter.3}% 15
-\BOOKMARK [2][-]{subsection.3.2.1}{3.2.1 NFC and WSANs}{section.3.2}% 16
-\BOOKMARK [2][-]{subsection.3.2.2}{3.2.2 Spime and Smart Items}{section.3.2}% 17
-\BOOKMARK [1][-]{section.3.3}{3.3 Sensors and Actuators}{chapter.3}% 18
-\BOOKMARK [1][-]{section.3.4}{3.4 Internet-based Communication Protocols and Standards}{chapter.3}% 19
-\BOOKMARK [2][-]{subsection.3.4.1}{3.4.1 TCP, UDP and IP}{section.3.4}% 20
-\BOOKMARK [2][-]{subsection.3.4.2}{3.4.2 HTTP}{section.3.4}% 21
-\BOOKMARK [2][-]{subsection.3.4.3}{3.4.3 HTML5 and WebSockets}{section.3.4}% 22
-\BOOKMARK [2][-]{subsection.3.4.4}{3.4.4 Internet-based Communication Protocols and Standards with IoT}{section.3.4}% 23
-\BOOKMARK [0][]{chapter.4}{4 Web Services for The Internet of Things}{}% 24
-\BOOKMARK [1][-]{section.4.1}{4.1 REST}{chapter.4}% 25
-\BOOKMARK [1][-]{section.4.2}{4.2 SOAP}{chapter.4}% 26
-\BOOKMARK [1][-]{section.4.3}{4.3 CoAP}{chapter.4}% 27
-\BOOKMARK [1][-]{section.4.4}{4.4 MQTT}{chapter.4}% 28
-\BOOKMARK [1][-]{section.4.5}{4.5 Comparison}{chapter.4}% 29
-\BOOKMARK [0][]{chapter.5}{5 Patterns for Web-based IoT Applications}{}% 30
-\BOOKMARK [1][-]{section.5.1}{5.1 RPC}{chapter.5}% 31
-\BOOKMARK [1][-]{section.5.2}{5.2 Publish/Subscribe}{chapter.5}% 32
-\BOOKMARK [1][-]{section.5.3}{5.3 Database-centric Approach}{chapter.5}% 33
-\BOOKMARK [0][]{chapter.6}{6 Design and Implementation of Sample IoT Services}{}% 34
-\BOOKMARK [1][-]{section.6.1}{6.1 Smart Lighting and Control Application}{chapter.6}% 35
-\BOOKMARK [2][-]{subsection.6.1.1}{6.1.1 Components}{section.6.1}% 36
-\BOOKMARK [2][-]{subsection.6.1.2}{6.1.2 Implementation of The Backend}{section.6.1}% 37
-\BOOKMARK [2][-]{subsection.6.1.3}{6.1.3 Implementation of The Front-end}{section.6.1}% 38
-\BOOKMARK [2][-]{subsection.6.1.4}{6.1.4 Overall Structure}{section.6.1}% 39
-\BOOKMARK [2][-]{subsection.6.1.5}{6.1.5 The Role of Messaging Patterns}{section.6.1}% 40
-\BOOKMARK [1][-]{section.6.2}{6.2 Social Network IoT Sensing Application}{chapter.6}% 41
-\BOOKMARK [2][-]{subsection.6.2.1}{6.2.1 Features}{section.6.2}% 42
-\BOOKMARK [2][-]{subsection.6.2.2}{6.2.2 Stack and Architecture}{section.6.2}% 43
-\BOOKMARK [2][-]{subsection.6.2.3}{6.2.3 Retrieving Data}{section.6.2}% 44
-\BOOKMARK [0][]{chapter.7}{7 Evaluation}{}% 45
-\BOOKMARK [1][-]{section.7.1}{7.1 Origin and Justification}{chapter.7}% 46
-\BOOKMARK [1][-]{section.7.2}{7.2 Tools and Setup}{chapter.7}% 47
-\BOOKMARK [1][-]{section.7.3}{7.3 Simulation}{chapter.7}% 48
-\BOOKMARK [1][-]{section.7.4}{7.4 Measurement}{chapter.7}% 49
-\BOOKMARK [1][-]{section.7.5}{7.5 Scalability}{chapter.7}% 50
-\BOOKMARK [1][-]{section.7.6}{7.6 Security}{chapter.7}% 51
-\BOOKMARK [0][]{chapter.8}{8 Future and Conclusion}{}% 52
+\BOOKMARK [0][]{chapter.2}{2 Web Technologies}{}% 6
+\BOOKMARK [1][-]{section.2.1}{2.1 Internet-based Communication Protocols and Standards}{chapter.2}% 7
+\BOOKMARK [2][-]{subsection.2.1.1}{2.1.1 TCP, UDP and IP}{section.2.1}% 8
+\BOOKMARK [2][-]{subsection.2.1.2}{2.1.2 HTTP}{section.2.1}% 9
+\BOOKMARK [2][-]{subsection.2.1.3}{2.1.3 HTML5 and WebSockets}{section.2.1}% 10
+\BOOKMARK [1][-]{section.2.2}{2.2 Traditional Communication}{chapter.2}% 11
+\BOOKMARK [1][-]{section.2.3}{2.3 The Internet of Things and WebSocket}{chapter.2}% 12
+\BOOKMARK [1][-]{section.2.4}{2.4 WAMP}{chapter.2}% 13
+\BOOKMARK [2][-]{subsection.2.4.1}{2.4.1 JSON}{section.2.4}% 14
+\BOOKMARK [2][-]{subsection.2.4.2}{2.4.2 URI}{section.2.4}% 15
+\BOOKMARK [1][-]{section.2.5}{2.5 Other Registered WebSocket Subprotocols}{chapter.2}% 16
+\BOOKMARK [0][]{chapter.3}{3 Internet Of Things}{}% 17
+\BOOKMARK [1][-]{section.3.1}{3.1 Definition}{chapter.3}% 18
+\BOOKMARK [1][-]{section.3.2}{3.2 Things: The Bridge between Real World and Virtual World}{chapter.3}% 19
+\BOOKMARK [2][-]{subsection.3.2.1}{3.2.1 NFC and WSANs}{section.3.2}% 20
+\BOOKMARK [2][-]{subsection.3.2.2}{3.2.2 Spime and Smart Items}{section.3.2}% 21
+\BOOKMARK [1][-]{section.3.3}{3.3 Sensors and Actuators}{chapter.3}% 22
+\BOOKMARK [1][-]{section.3.4}{3.4 Internet-based Communication Protocols and Standards with IoT}{chapter.3}% 23
+\BOOKMARK [2][-]{subsection.3.4.1}{3.4.1 REST}{section.3.4}% 24
+\BOOKMARK [2][-]{subsection.3.4.2}{3.4.2 SOAP}{section.3.4}% 25
+\BOOKMARK [2][-]{subsection.3.4.3}{3.4.3 CoAP}{section.3.4}% 26
+\BOOKMARK [2][-]{subsection.3.4.4}{3.4.4 MQTT}{section.3.4}% 27
+\BOOKMARK [2][-]{subsection.3.4.5}{3.4.5 Comparison}{section.3.4}% 28
+\BOOKMARK [0][]{chapter.4}{4 Design and Implementation of Web-based IoT Applications}{}% 29
+\BOOKMARK [1][-]{section.4.1}{4.1 Patterns for Web-based IoT Applications}{chapter.4}% 30
+\BOOKMARK [2][-]{subsection.4.1.1}{4.1.1 RPC}{section.4.1}% 31
+\BOOKMARK [2][-]{subsection.4.1.2}{4.1.2 Publish/Subscribe}{section.4.1}% 32
+\BOOKMARK [2][-]{subsection.4.1.3}{4.1.3 Database-centric Approach}{section.4.1}% 33
+\BOOKMARK [1][-]{section.4.2}{4.2 Smart Lighting and Control Application}{chapter.4}% 34
+\BOOKMARK [2][-]{subsection.4.2.1}{4.2.1 Components}{section.4.2}% 35
+\BOOKMARK [2][-]{subsection.4.2.2}{4.2.2 Implementation of The Backend}{section.4.2}% 36
+\BOOKMARK [2][-]{subsection.4.2.3}{4.2.3 Implementation of The Front-end}{section.4.2}% 37
+\BOOKMARK [2][-]{subsection.4.2.4}{4.2.4 Overall Structure}{section.4.2}% 38
+\BOOKMARK [2][-]{subsection.4.2.5}{4.2.5 The Role of Messaging Patterns}{section.4.2}% 39
+\BOOKMARK [1][-]{section.4.3}{4.3 Social Sensing}{chapter.4}% 40
+\BOOKMARK [2][-]{subsection.4.3.1}{4.3.1 Features}{section.4.3}% 41
+\BOOKMARK [2][-]{subsection.4.3.2}{4.3.2 Stack and Architecture}{section.4.3}% 42
+\BOOKMARK [2][-]{subsection.4.3.3}{4.3.3 Retrieving Data}{section.4.3}% 43
+\BOOKMARK [0][]{chapter.5}{5 Evaluation}{}% 44
+\BOOKMARK [1][-]{section.5.1}{5.1 Origin and Justification}{chapter.5}% 45
+\BOOKMARK [1][-]{section.5.2}{5.2 Tools and Setup}{chapter.5}% 46
+\BOOKMARK [1][-]{section.5.3}{5.3 Simulation}{chapter.5}% 47
+\BOOKMARK [1][-]{section.5.4}{5.4 Measurement}{chapter.5}% 48
+\BOOKMARK [1][-]{section.5.5}{5.5 Scalability}{chapter.5}% 49
+\BOOKMARK [1][-]{section.5.6}{5.6 Security}{chapter.5}% 50
+\BOOKMARK [0][]{chapter.6}{6 Conclusion}{}% 51

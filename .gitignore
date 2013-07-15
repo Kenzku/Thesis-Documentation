@@ -1,0 +1,12 @@
+lib-cov
+*.seed
+*.log
+*.csv
+*.dat
+*.out
+*.pid
+*.gz
+*.pem
+
+.DS_Store
+main.pdf

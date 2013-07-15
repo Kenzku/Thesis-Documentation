@@ -1,10 +1,10 @@
 \chapter{Introduction}
 \label{chapter:intro}
-After the web turning from 1.0 to 2.0 where the network as platform, spanning all connected devices. Unlike Web 1.0, applications are as treated continually-updated services that get better the more people use it. This is done by consuming and remixing data from multiple sources, including individual users, while providing their own data and services in a form that allows remixing by others. \cite{o2005web} 
+After the web turning from 1.0 to 2.0 where the network as platform, spanning all connected devices. Unlike Web 1.0, applications are as treated continually-updated services that get better the more people use it. This is done by consuming and fusing data from multiple sources, including individual users, while providing their own data and services in a form that allows fusing by others\cite{o2005web}.
 
-Web browsers are now commonly installed in smart electronic equipments such as computers, smart phones, and tablets which can connect to the Internet. With Microsoft related operating systems (OS) such as Windows 7 and Windows 8, there might be Internet Explorer installed; With Apple related OS, such as Mac OS X and iOS, there will be Safari installed; With Google related OS, such as Android, there will be a WebKit\footnote{http://www.webkit.org} based browser(s) installed. Additionally, users are free of options to choose other web browsers. 
+Web browsers are now commonly installed in smart electronic equipments such as computers, smart phones, and tablets which can connect to the Internet. 
 
-Typical contents, presented by web browsers, are text and multi-medias such as image, audio and video. These contents are stored in other computers connected by the Internet. My work started at this point: a browser directly communicates with an internet-enabled device. To make the work interesting, the device should have good interoperability i.e. it should be able to communicate with sensors and actuator, or even with other devices.
+Typical contents, presented by web browsers, are text and multi-medias such as image, audio and video. These contents are stored in other computers connected by the Internet. Our work started at this point: a browser directly communicates with an internet-enabled device. To make the work interesting, the device should have good interoperability i.e. it should be able to communicate with sensors and actuator, or even with other devices.
 
 \section{Problem and Solution}
 
@@ -17,3 +17,4 @@ With the purpose of presenting wonderful contents to users, a web browser commun
 However, this approach can radically improved by removing the redundant HTTP Requests. Then we transfer all data over a single TCP connection, which is what we called WebSockets. The goal of this technology is to provide a mechanism for browser-based applications that need two-way communication with servers that does not rely on opening multiple HTTP connections \cite{rfc64552012web}.
 
 In effort to solve the Ajax abuse, bidirectional and real-time communication problems in IoT, we provide a solution using WebSockets with its subprotocol, the WebSocket Application Messaging Protocol (WAMP). In the thesis, we simulated and visualised the behaviours of IoT devices over an HTML5 application using publish/subscribe (Pub/Sub) and Remote Procedure Call (RPC) pattens, providing by WAMP. These two pattens cover the two most important interaction in IoT: notification and commanding.
+
