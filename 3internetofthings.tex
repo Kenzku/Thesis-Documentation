@@ -19,7 +19,7 @@ They are, together with RFID, are recognised as the atomic components that links
 
 \subsection{Spime and Smart Items}
 
-Spime and Smart Items are also considered to be the ``things''. Spime is a neologism created by Bruce Sterling, a science fiction writer, in 2005. Sterling stated that there will be a new kind of object -- user-alterable, baroquely multi-featured and programmable -- in the future, for which Sterling invented the term ``Spime'' \cite{sterling2005shaping}. Sterling described that the Spime is one of the objects in Internet of Things since Spime enables a thing to be searchable. i.e. A thing can be searched by a search engine from a virtual world to a physical world \cite{sterling2005shaping}. Spime is a bit theoretical, but we can find some of its prototype in the real world, and we call them Smart Items \cite{atzori2010internet}.
+Spime and Smart Items are also considered to be the ``things''. Spime is a neologism created by Bruce Sterling, a science fiction writer, in 2005. Sterling stated that there will be a new kind of object -- user-alterable, baroquely multi-featured and programmable -- in the future, for which Sterling invented the term ``Spime'' \cite{sterling2005shaping}. Sterling described that the Spime is one of the objects in Internet of Things since Spime enables a thing to be searchable. i.e., A thing can be searched by a search engine from a virtual world to a physical world \cite{sterling2005shaping}. Spime is a bit theoretical, but we can find some of its prototype in the real world, and we call them Smart Items \cite{atzori2010internet}.
 
 IoT is also derivative from the vision of ``Internet'', which Vasseur and Adam described in \cite{vasseur2010interconnecting}. A Smart Object is an item equipped with a form of sensor or actuator, a tiny microprocessor, a communication device and a power source. The sensor or actuator gives the smart object the ability to interact with the physical world. Smart Objects are interconnected using the Internet Protocol (IP). 
 
@@ -54,14 +54,14 @@ Another issue about IP, Internet Protocol Version 4 (IPv4) is the dominant IP pr
 
 HTTP and WebSocket ensure that IoT can be used or extended by applications. For example, a web interface that can visualise temperature data. Subsequently, IoT network can be directly or indirectly connect to end users. 
 
-A Web Service ``is a network accessible interface to application functionality, built using standard Internet technologies'' \cite{snell2009programming}. In other words, an application can be accessed by another application, client or user over the Internet, via web technology such as HTTP, XML or SMTP. A Web Service, usually, provides services based on standards at the layer between service requesters and service providers. This means, it does not matter how are the services implemented, e.g. using C/C++, Java, Python or Javascript, or based on whatever platforms, e.g. Windows Server, Max OS Server or Unix Server. 
+A Web Service ``is a network accessible interface to application functionality, built using standard Internet technologies'' \cite{snell2009programming}. In other words, an application can be accessed by another application, client or user over the Internet, via web technology such as HTTP, XML or SMTP. A Web Service, usually, provides services based on standards at the layer between service requesters and service providers. This means, it does not matter how are the services implemented, e.g. using C/C++, Java, Python or Javascript, or based on whatever platforms, e.g. Windows, Max OS or Unix. 
 
 When a request is sent to a web service layer, this layer will start a procedure which further requests the service provider. When the procedure is finished, the web service layer will response to the sender results (the response is sometimes optional and it relies on how is the web service implemented). The communication, between the service requesters and the web service layer, is usually based on standard protocols, which aims at cross-platform interoperability. 
 
-The next, we will talk about a sequence of protocols that can be used in Web Services.
+In the following, we will talk about a sequence of protocols that can be used in Web Services.
 
 \subsection{REST}
-Representational State Transfer (REST) is introduced by ROY T. FIELDING in his doctoral dissertation in 2000. REST is a web architectural style. It is, however, not a standard or protocol. 
+Representational State Transfer (REST) is introduced by Roy T. Fielding in his doctoral dissertation in 2000 \cite {fielding2002principled}. REST is a web architectural style. It is, however, not a standard or protocol. 
 
 An architectural style is ``a coordinated set of architectural constraints that restricts the roles and features of architectural elements, and the allowed relationships among those elements, within any architecture that conforms to the style. Thus, a style provides a name by which we can refer to a packaged set of architectural design decisions and the set of architectural properties that are induced by applying the style.'' \cite {fielding2002principled}
 
@@ -77,7 +77,7 @@ All REST communications are stateless. Thus, each request involves all the neces
   \end{center}
 \end{figure}
 
-As it is illustrated, the request specifies which page the client fetches, i.e. page 2; while the response message contains what the current page is, what the next page is and also the requested page.
+As it is illustrated, the request specifies which page the client fetches, i.e., page 2; while the response message contains what the current page is, what the next page is and also the requested page.
 
 On the contrary, stateful design, as shown by Figure \ref{fig:stateful-design} \cite{rodriguez2008restful}, the server saves each client status and responses the corresponding status to the clients who request them. In \ref{fig:stateful-design}, the client need not to specify which page it fetches, but just call the corresponding procedure. The server computes the result and returns the page to the client.
 
@@ -124,7 +124,7 @@ Unlike HTTP, CoAP stack is designed for constrained environment, while CoAP, add
 CoAP relies on UDP. Moreover, CoAP cannot communicate with a browser directly without a gateway which translates CoAP to HTTP. The gateway can be an application. e.g. Copper\footnote{https://addons.mozilla.org/de/firefox/addon/copper-270430/}, a firefox plug-in, currently, is available for users to browse and interact with Internet of Things devices.
 
 \subsection{MQTT}
-Message Queuing Telemetry Transport (MQTT)\footnote{http://mqtt.org} is a machine-to-machine (M2M) / IoT connectivity protocol. There are two main specification for MQTT: MQTT v3.1 and MQTT-S (MQTT for Sensor) v1.2. We will compare MQTT V3.1 with WAMP. Since MQTT-S does not work on TCP/IP network, it is out of scope of our project.
+Message Queuing Telemetry Transport (MQTT)\footnote{http://mqtt.org} is a machine-to-machine (M2M) / IoT connectivity protocol. There are two main specification for MQTT: MQTT v3.1 and MQTT-S (MQTT for Sensor) v1.2. We will compare MQTT V3.1 with WAMP. Since MQTT-S does not work on TCP/IP network, it is not suitable for the IoT thus will not be further discussed.
 
 MQTT is designed as an extremely lightweight publish/subscribe messaging transport; while MQTT-S is a publish/subscribe messaging protocol for wireless sensor networks (WSNs) and is originally designed for non-TCP/IP networks.
 

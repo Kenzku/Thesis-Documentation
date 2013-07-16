@@ -19,15 +19,15 @@ RPC can be further developed into a massage pattern\footnote{http://wamp.ws/faq\
 
 RPC is commonly used in real world scenarios. For example, Facebook, a social network web platform, provides open APIs that allows third party applications to access its data. Here, Facebook plays the role of the server(s), while the third party applications play the role of the client. When a third party application (client) sends a request to Facebook asking, e.g. a list of the user's friends, Facebook servers process the request. Facebook servers, then, response to the client, when the result, either success or error, is ready. The client can then use the list of friends to perform further procedures. 
 
-From the perspective of IoT, RPC pattern covers one of the two most important interaction in the IoT application architecture, i.e. commanding. In the case of IoT, nodes could locate on different locations from cities to countrysides. Commanding is helpful to configure a node remotely, e.g. setting the parameters (device identification, timeout and reporting rate). As for an actuator, RPC pattern can control its action. e.g. a light actuator, or called a light switch, has the actions of on and off. With commanding, the light can, thus, be switched on or off remotely.
+From the perspective of IoT, RPC pattern covers one of the two most important interaction in the IoT application architecture, i.e., sending commands or configuration control. In the case of IoT, nodes could locate on different locations from cities to countrysides. Commanding is helpful to configure a node remotely, e.g. setting the parameters (device identification, timeout and reporting rate). As for an actuator, RPC pattern can control its action. e.g. a light actuator, or called a light switch, has the actions of on and off. With commanding, the light can, thus, be switched on or off remotely.
 
 \subsection{Publish/Subscribe}
 
-Publish/Subscribe (Pub/Sub) is one of the messages exchanges patterns. Messages are exchanged based on publishing and subscribing. A sender of a message is called a publisher. Usually, each message contains a topic. A receiver filters and receives a message by the message topic. The receiver who subscribes topics is called a subscriber. 
+Publish/Subscribe (Pub/Sub) is one of the messages exchange patterns. Messages are exchanged based on publishing and subscribing. A sender of a message is called a publisher. Usually, each message contains a topic. A receiver filters and receives a message by the message topic. The receiver who subscribes topics is called a subscriber. 
 
 Pub/Sub architecture consists, usually, at least publishers, subscribers and a broker(s). The broker maps the right messages to the right receivers and exchanges messages among publishers and subscribers. Generally, there is, on one hand, no restricted boundary between a publisher and a subscriber. This means, a publisher can also be a subscriber and receives messages from other publishers; while a subscriber can also be a publisher and publishes messages with topics. On the other hand, there is no order between publishing and subscribing. This means, a publisher can publish a message with a topic without subscribing any topic; or even no one subscribes the topic. The subscriber does not have to subscribe any topic either. This refers to, if the aforementioned situation happens, then messages are , e.g., simply discarded. All the message exchanging logics, however, are handled by the broker(s). The broker(s) should specifies and implements corresponding functions to different messaging situations. 
 
-An example of Pub/Sub pattern is shown in Figure \ref{fig:publish-subscribe-pattern}. Client 1 plays roles in both subscriber and publisher in different stages. i.e. When it subscribes topic 1, client 1 is treated as a subscriber. Client 1, however, changes to a publisher when it publishes a message with the topic (topic 1). The broker analyses the message and maps the topic to the subscribers who are interested in the topics. In this case, both Client 1 and Client 2 are interested in the topic. Hence, the broker replies the message to both of them. Client 1, and thus, changes its role to a subscriber.
+An example of Pub/Sub pattern is shown in Figure \ref{fig:publish-subscribe-pattern}. Client 1 plays roles in both subscriber and publisher in different stages. i.e., When it subscribes topic 1, client 1 is treated as a subscriber. Client 1, however, changes to a publisher when it publishes a message with the topic (topic 1). The broker analyses the message and maps the topic to the subscribers who are interested in the topics. In this case, both Client 1 and Client 2 are interested in the topic. Hence, the broker replies the message to both of them. Client 1, and thus, changes its role to a subscriber.
 
 \begin{figure}[ht]
   \begin{center}
@@ -41,7 +41,7 @@ The concept of Pub/Sub pattern has been used in real world cases. Twitter, for e
 
 User 1 can follow other users based on his interest. For example, User 1 follows User 2. User 1 will, then, receives User 2's post on User 1's homepage. Here, User 2 becomes a topic that User 1 subscribes; User 1 is the subscriber and User 2 is the publisher. Twitter, acts as a broker, handles the logic how the messages sent by User 2 delivers to User 1.
 
-From the perspective of IoT, Pub/Sub pattern covers the other one of the two most important interaction in the IoT application architecture, i.e. notification. With notification, data can be sent interconnected, such as among nodes or from nodes to data centres. For example, one node, Node A, collects temperature data and humidity data. Node A then submits the collected data to the other node or data centre (called Node B) for the purpose of assembling. One strategy, which organises and manages the data sent by Node A, is to set the topic of the each message to the data type (i.e. temperature or humidity). Subsequently, Node B can easily categorise the data for further processing. There are, surely, other ways of exploiting Pub/Sub pattern. 
+From the perspective of IoT, Pub/Sub pattern covers the other one of the two most important interaction in the IoT application architecture, i.e., notification. With notification, data can be sent interconnected, such as among nodes or from nodes to data centres. For example, one node, Node A, collects temperature data and humidity data. Node A then submits the collected data to the other node or data centre (called Node B) for the purpose of assembling. One strategy, which organises and manages the data sent by Node A, is to set the topic of the each message to the data type (i.e., temperature or humidity). Subsequently, Node B can easily categorise the data for further processing.
 
 \subsection{Database-centric Approach}
 Database-centric is a software architecture where database plays critical role. Generally, database provides fault tolerant and reliable transactions. Database-centric Approach, in IoT services, subsequently, provides a dependable mechanism to record enormous IoT data. 
@@ -55,13 +55,13 @@ In the thesis, we built an HTML5 based application to demonstrate a smart lighti
 \begin{figure}[ht]
   \begin{center}
     \includegraphics[width=1\textwidth]{images/components-relationship.pdf}
-    \caption{Components Relationship}
+    \caption{Components of The Smart Lighting and Control Application and Their Relationship}
     \label{fig:components-relationship}
   \end{center}
 \end{figure}
 
 \subsection{Implementation of The Backend}
-With the concept above, we implemented an embedded web server based on a NodeJS server. We also attached a WebSocket server to the NodeJS server, and a WAMP server on top of the WebSocket server. The embedded web server, then, understands the WebSocket protocol and the WAMP subprotocol. The component layer structure is shown in Figure  \ref{fig:component-layer-structure}. 
+With the concept above, we implemented an embedded web server based on a NodeJS. We also attached a WebSocket server to the NodeJS, and a WAMP server on top of the WebSocket server. The embedded web server, then, understands the WebSocket protocol and the WAMP subprotocol. The component layer structure is shown in Figure  \ref{fig:component-layer-structure}. 
 
 \begin{figure}[ht]
   \begin{center}
@@ -81,9 +81,9 @@ We start with the sensor. As a sensor is built on top of a generic component whi
 % You can use this command to set the items in the list closer to each other
 % (ITEM SEParation, the vertical space between the list items) 
 \setlength{\itemsep}{0pt}
-\item Get current sensor data. This function triggers a sensor to retrieve data from its environment. In the sample, the sensor senses light brightness data.
-\item Configuration. To configure a sensor with parameter. Sensor's action, however, is usually hardcoded and cannot be configured remotely. This is due to a security reason, that the currently implementation does not allow an action parameter (such as a function) transmitted remotely.
-\item Reset. To reset the configuration of a sensor to default.
+\item \emph{Get current sensor data}. This function triggers a sensor to retrieve data from its environment. In the sample, the sensor senses light brightness data.
+\item \emph{Configuration}. To configure a sensor with parameter. Sensor's action, however, is usually hardcoded and cannot be configured remotely. This is due to a security reason, that the currently implementation does not allow an action parameter (such as a function) transmitted remotely.
+\item \emph{Reset}. To reset the configuration of a sensor to default.
 \end{itemize}
 
 As for actuator, it is built at the same layer as that for sensor, and thus, it also inheres features from generic sensors as the sensor does. In the sample, we configure an actuator into a light switch, and it can be described as the followings:
@@ -92,17 +92,17 @@ As for actuator, it is built at the same layer as that for sensor, and thus, it 
 % You can use this command to set the items in the list closer to each other
 % (ITEM SEParation, the vertical space between the list items) 
 \setlength{\itemsep}{0pt}
-\item Switch on. To switch on a light and regardless the light current state.
-\item Switch off. To switch off a light and regardless the light current state.
-\item Switch a light. To switch the light to its opposite state. This means, if a light is on, it, then, will be switched off and vice versa.
-\item Adjust luminance. To adjust a light luminance to a given value which should be in the range of a light acceptable value.
-\item Configuration. Similar to that of a sensor.
-\item Reset. Similar to that of a sensor.
+\item \emph{Switch on}. To switch on a light and regardless the light current state.
+\item \emph{Switch off}. To switch off a light and regardless the light current state.
+\item \emph{Switch a light}. To switch the light to its opposite state. This means, if a light is on, it, then, will be switched off and vice versa.
+\item \emph{Adjust luminance}. To adjust a light luminance to a given value which should be in the range of a light acceptable value.
+\item \emph{Configuration}. Similar to that of a sensor.
+\item \emph{Reset}. Similar to that of a sensor.
 \end{itemize}
 
 In effect with simulation, we added an virtual component that simulates a light. Thus, a light status (on or off) can be check through this component. 
 
-Summary so far, the interface of a light sensor/switch (sensor/actuator) can be illustrated in Figure \ref{fig:component-interface}. in a generic way:
+Summary so far, the interface of a light sensor/switch (sensor/actuator) can be illustrated in Figure \ref{fig:component-interface}. in a generic way.
 
 \begin{figure}[ht]
   \begin{center}
