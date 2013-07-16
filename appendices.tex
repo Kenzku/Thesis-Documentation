@@ -1,17 +1,13 @@
-\chapter{First appendix}
+\chapter{First Appendix}
 \label{chapter:first-appendix}
 
-This is the first appendix. You could put some test images or verbose data in an
-appendix, if there is too much data to fit in the actual text nicely.
+\subsection{JSON}
 
-For now, the Aalto logo variants are shown in Figure~\ref{fig:aaltologo}.
+JavaScript Object Notation (JSON) is a text format for the serialisation of structured data. It is derived from the object literals of JavaScript, as defined in the ECMAScript Programming Language Standard \cite{crockford2006application}. JSON has numbers, strings, booleans and null as its primitive types. Additionally, it has objects and arrays as structured types. JSON becomes popular to exchange data between in web services or applications. With JSON, WAMP message payload is serialisable and provides data types according to those of JSON. 
 
-\begin{figure}
-\begin{center}
-\subfigure[In English]{\includegraphics[width=.8\textwidth]{images/aalto-logo-en}}
-\subfigure[Suomeksi]{\includegraphics[width=.8\textwidth]{images/aalto-logo-fi}}
-\subfigure[På svenska]{\includegraphics[width=.8\textwidth]{images/aalto-logo-se}}
-\caption{Aalto logo variants}
-\label{fig:aaltologo}
-\end{center}
-\end{figure}
+\subsection{URI}
+
+Uniform Resource Identifiers (URIs) provide a simple and extensible means for identifying a resource. URIs have a global scope and are interpreted consistently regardless of context \cite{masinter2005uniform}. WAMP binds to URIs by default, then it assumes global assignments and resolution to be unique. URIs are used as IDs for both topics in Pub/Sub and procedures in RPC. 
+
+\subsection{XML}
+Extensible Markup Language (XML) is a markup language that was designed to transport and store data. Furthermore, XML was designed to be self-describing and can be used straightforward over the Internet. XML has been widely used, for example, the SOAP protocol that we mentioned in the thesis. 

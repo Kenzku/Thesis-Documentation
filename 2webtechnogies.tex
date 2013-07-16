@@ -85,15 +85,7 @@ WebSocket Application Messaging Protocol (WAMP)\footnote{http://wamp.ws/} is a s
 
 WAMP fills in the blanks in the WebSocket protocol: a low-level specification which originally provides raw messaging communication (text or binary). Moreover, WAMP does not make any extra standard, but it bases on established Web standards: WebSocket, JSON and URI. The WebSocket standard is the default transport channel where WAMP is binding. With the WebSocket Standard, WAMP is assumed to be given a reliable, ordered, and full-duplex message channel. 
 
-\subsection{JSON}
-
-JavaScript Object Notation (JSON) is a text format for the serialisation of structured data. It is derived from the object literals of JavaScript, as defined in the ECMAScript Programming Language Standard, Third Edition [ECMA] \cite{crockford2006application}. JSON has numbers, strings, booleans and null as its primitive types. Additionally, it has objects and arrays as structured types. JSON becomes popular to exchange data between in web services or applications. With JSON, WAMP message payload is serialisable and provides data types according to those of JSON. 
-
-\subsection{URI}
-
-Uniform Resource Identifiers (URIs) provide a simple and extensible means for identifying a resource. URIs have a global scope and are interpreted consistently regardless of context \cite{masinter2005uniform}. WAMP binds to URIs by default, then it assumes global assignments and resolution to be unique. URIs are used as IDs for both topics in Pub/Sub and procedures in RPC. 
-
-\section{Other Registered WebSocket Subprotocols}
+\section{Other Registered Subprotocols}
 
 Apart from WAMP, there are MessageBroker WebSocket Subprotocol (MBWS), Simple Object Access Protocol(SOAP) and Simple Text Oriented Messaging Protocol (STOMP) can be used as subprotocols, according to the WebSocket Protocol Registries.
 
