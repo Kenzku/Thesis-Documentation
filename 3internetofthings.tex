@@ -1,33 +1,29 @@
 \chapter{Internet Of Things}
 \label{chapter:internetofthings} 
 
-\section{Definition}
+\section{Things: Bridging The Real and The Virtual World}
 
-The term, Internet of Things, was firstly mentioned by Kevin Ashton in once his presentation in 1999 \cite{ashton2009internet}
+The term, Internet of Things, was firstly mentioned by Kevin Ashton in once his presentation in 1999 \cite{ashton2009internet}.
 
 Semantically, Internet of Things means ``a world-wide network of interconnected objects uniquely addressable, based on standard communication protocols'' \cite{infso2008networked}. 
-
-\section{Things: The Bridge between Real World and Virtual World}
 
 The ``things'' refers to the ``objects'' in the semantical explanation. The ``things'' are heterogeneous objects. The initial idea of the ``things'' started with Radio-Frequency IDentification (RFID) tags by Auto-ID Labs\footnote{http://www.autoidlabs.org}, a world-wide network of academic research laboratory in the field of networked RFID and emerging sensing technologies. Hereafter, other concepts of ``things'' emerged: NFC tags, Wireless Sensor and Actuator Networks (WSANs), Spime and Smart Items.
 
 \subsection{NFC and WSANs}
 
-NFC is a proximity technology that provides contactless communication by using ISO/IEC 14443 and ISO/IEC 18092. NFC tags utilise Reader/Writer mode, one of the modes that a NFC devices should supports \cite{Madlmayr:SecurityandPrivacy}, to store data and interact with users. A typical scenario is that a NFC tag acts as a smart poster, where a user could place a NFC based mobile phone near a smart poster and thus would retrieve further information. e.g. if a smart poster stores movie poster data, it can forward a user to the movie trailer or its home page. Additionally, there are card emulation mode and Peer-to-Peer mode. Card Emulation Mode e.g. turns a mobile phone into a smart card such as a credit or debit card, and the NFC reader cannot distinguish the difference between the mobile phone and smart cards. Thus, with this features, it can implement a new way of payment system called Mobile Payments. NFC Peer-to-Peer (P2P) mode is designed based on the standards ISO 18092, which allows two NFC devices communicate mutually. \cite{Madlmayr:SecurityandPrivacy}
+NFC is a proximity technology that provides contactless communication by using ISO/IEC 14443 and ISO/IEC 18092. NFC tags utilise Reader/Writer mode, one of the modes that a NFC devices should supports \cite{Madlmayr:SecurityandPrivacy}, to store data and interact with users. A typical scenario is that a NFC tag acts as a smart poster, where a user could place a NFC based mobile phone near a smart poster and thus would retrieve further information. For instance, if a smart poster stores movie poster data, it can forward a user to the movie trailer or its home page. Additionally, there are card emulation mode and Peer-to-Peer mode. Card Emulation Mode e.g. turns a mobile phone into a smart card such as a credit or debit card, and the NFC reader cannot distinguish the difference between the mobile phone and smart cards. Thus, with this features, it can implement a new way of payment system called Mobile Payments. NFC Peer-to-Peer (P2P) mode is designed based on the standards ISO 18092, which allows two NFC devices communicate mutually \cite{Madlmayr:SecurityandPrivacy}.
 
-WSANs are composed of large numbers of minimal capacity sensing, computing, and communicating devices and various types of actuators. WSANs constitute an important and exciting new technology with great potential for improving many current applications. It also creates new revolutionary systems in areas such as global-scale environmental monitoring, precision agriculture, home and assisted living medical care, smart buildings and cities, industrial automation, and numerous military applications. \cite{stankovic2008sensor} 
+WSANs are composed of large numbers of minimal capacity sensing, computing, and communicating devices and various types of actuators. WSANs constitute an important and exciting new technology with great potential for improving many current applications. It also creates new revolutionary systems in areas such as global-scale environmental monitoring, precision agriculture, home and assisted living medical care, smart buildings and cities, industrial automation, and numerous military applications \cite{stankovic2008sensor}. 
 
-They are, together with RFID, are recognised as the atomic components that links the real world with the digital world.\cite{sterling2005shaping}
+They are, together with RFID, are recognised as the atomic components that links the real world with the digital world \cite{sterling2005shaping}.
 
 \subsection{Spime and Smart Items}
 
-Spime and Smart Items are also considered to be ``Things'' Oriented Object. Spime is a neologism and firstly mentioned by Bruce Sterling, a science fiction writer, in 2005. Sterling stated that there will be a new kind of object - user-alterable, baroquely multi-featured and programmable - in the future, for which Sterling invented the term ``Spime''. \cite{sterling2005shaping}. Sterling described that the Spime is one of the objects in Internet of Things since Spime enables a thing to be searchable. i.e. A thing can be searched by a search engine from a virtual world to a physical world. \cite{sterling2005shaping} 
+Spime and Smart Items are also considered to be the ``things''. Spime is a neologism created by Bruce Sterling, a science fiction writer, in 2005. Sterling stated that there will be a new kind of object -- user-alterable, baroquely multi-featured and programmable -- in the future, for which Sterling invented the term ``Spime'' \cite{sterling2005shaping}. Sterling described that the Spime is one of the objects in Internet of Things since Spime enables a thing to be searchable. i.e. A thing can be searched by a search engine from a virtual world to a physical world \cite{sterling2005shaping}. Spime is a bit theoretical, but we can find some of its prototype in the real world, and we call them Smart Items \cite{atzori2010internet}.
 
-Spime is a bit theoretical, but we can find some of its prototype in the real world, and we call them Smart Items \cite{atzori2010internet}.
+IoT is also derivative from the vision of ``Internet'', which Vasseur and Adam described in \cite{vasseur2010interconnecting}. A Smart Object is an item equipped with a form of sensor or actuator, a tiny microprocessor, a communication device and a power source. The sensor or actuator gives the smart object the ability to interact with the physical world. Smart Objects are interconnected using the Internet Protocol (IP). 
 
-IoT is also derivative from the vision of ``Internet''. Vasseur and Adam described Smart Objects in their book, Interconnecting Smart Objects with IP: The Next Internet \cite{vasseur2010interconnecting}. A Smart Object is an item equipped with a form of sensor or actuator, a tiny microprocessor, a communication device and a power source. The sensor or actuator gives the smart object the ability to interact with the physical world. Smart Objects are interconnected using the Internet Protocol (IP). 
-
-According to IPSO Alliance, the IP stack is a light protocol that already connects a huge amount of communicating devices and runs on tiny and battery operated embedded devices. This guarantees that IP has all the qualities to make IoT a reality. \cite{atzori2010internet}
+According to IPSO Alliance, the IP stack is a light protocol that already connects a huge amount of communicating devices and runs on tiny and battery operated embedded devices. This guarantees that IP has all the qualities to make IoT a reality \cite{atzori2010internet}.
 
 \section{Sensors and Actuators}
 A sensor detects or measures the physical environment (such as temperature, speed, and location etc) and converts it to a form (such as a digital form) which can be read by human or used for other purpose. For example, a light sensor senses the brightness of the environment, then the sensor converts the brightness into a digital form (data). The data can be, further, transferred to other receivers.
@@ -113,9 +109,9 @@ Constrained RESTful Environments (CORE) is a working group under Internet Engine
 
 CoAP is a protocol (in draft) used in constrained nodes and constrained networks and designed for machine-to-machine (M2M) applications \cite{shelby2013constrained}. A constrained node, usually, has a lower capacity controller with a small amount of ROM and RAM. Constrained networks refer to the networks, generally, with high packets error rates and a low throughput.
 
-CoAP applications or endpoints interact via a request/response model. It also supports built-in services and resources discoveries. With CoAP, applications or endpoints can easily interact with an HTTP based web architecture. \cite{shelby2013constrained} 
+CoAP applications or endpoints interact via a request/response model. It also supports built-in services and resources discoveries. With CoAP, applications or endpoints can easily interact with an HTTP based web architecture \cite{shelby2013constrained}.
 
-Unlike HTTP, CoAP stack is designed for constrained environment, while CoAP, additionally, differ from HTTP in terms of power consumption and overhead. Generally, CoAP power consumption bytes per-transaction are lower than those of HTTP, which implies longer battery lifetime. Figure \ref{fig:http-and-coap-stack} illustrates a comparison between HTTP and CoAP stack. CoAP consists of the concept of HTTP, but it has been re-designed with the respect to the low processing power and energy consumption constraints. \cite{colitti2011integrating}
+Unlike HTTP, CoAP stack is designed for constrained environment, while CoAP, additionally, differ from HTTP in terms of power consumption and overhead. Generally, CoAP power consumption bytes per-transaction are lower than those of HTTP, which implies longer battery lifetime. Figure \ref{fig:http-and-coap-stack} illustrates a comparison between HTTP and CoAP stack. CoAP consists of the concept of HTTP, but it has been re-designed with the respect to the low processing power and energy consumption constraints \cite{colitti2011integrating}.
 
 \begin{figure}[ht]
   \begin{center}
