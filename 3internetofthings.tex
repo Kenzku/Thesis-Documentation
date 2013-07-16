@@ -34,12 +34,12 @@ Sensors perform tasks more than measuring environments. The second category appl
 
 Sensors collect and transfer data for further use, but an actuator provides controlling functions to a system. e.g. a light switch can turn on and turn off a light; Here the light switch is an actuator. Sensors and Actuators work mutually can optimise processes. For example, sensors are installed in chemical production to bring much greater granularity to monitoring, where the sensor collects data and transfers them to computers which subsequently analyse the data and signal actuators to adjust the processes, such as ingredient mixtures, temperatures, or pressures \cite{chui2010internet}. The whole process can then be automated. 
 
-\section{Internet-based Communication Protocols and Standards with IoT}
+\section{Internet-based Communication Protocols}
 The currently architecture of IoT consists three layers \cite{wu2010research}. From top to bottom, they are: application layer, network layer and perception layer. The perception layer consists of the unquietly addressable objects. The network layer connects the objects and connects objects to computers. The application layer makes the IoT data meaningful, useful or extensible.
 
-TCP/IP and UDP ensure the objects communicable in IoT. Moreover, they ensure that the objects can be communicated outside the IoT network. Subsequently, the data, e.g. that sensors collected, is utilisable. For example, the data collected by sensors can be transferred to a data centre and can be further analysed. 
+TCP/IP and UDP ensure the objects communicable in IoT. Moreover, they ensure that the objects can be communicated outside the IoT network. Subsequently, the data collected by sensors are usable. For example, the data collected by sensors can be transferred to a data centre and can be further analysed. 
 
-Another issue about IP, Internet Protocol Version 4 (IPv4) is the dominant IP protocol in the Internet currently. IPv4, however, has exhausted \cite{smith2011free} and thus could not meet the `unquietly addressable' requirement in IoT. IP Version 6 (IPv6) is its successor. ``IPv6 enables end-to-end communication, in which any IPv6 `smart things' can connect to any other IPv6 devices or system from any place and at any time. It enables the possible extension of the Internet to any device, sensor or actuator, which can become real nodes of the future Internet.'' \cite{vermesan2011internet}. It primarily provides the following features\cite{deering1998internet}: 
+Another issue about IP, Internet Protocol Version 4 (IPv4) is the dominant IP protocol in the Internet currently. IPv4, however, has exhausted \cite{smith2011free} and thus could not meet the `unquietly addressable' requirement in IoT. IP Version 6 (IPv6) is its successor. ``IPv6 enables end-to-end communication, in which any IPv6 `smart things' can connect to any other IPv6 devices or system from any place and at any time. It enables the possible extension of the Internet to any device, sensor or actuator, which can become real nodes of the future Internet.'' \cite{vermesan2011internet}. It primarily provides the following features \cite{deering1998internet}: 
 
 \begin{itemize}
 % You can use this command to set the items in the list closer to each other
@@ -47,9 +47,9 @@ Another issue about IP, Internet Protocol Version 4 (IPv4) is the dominant IP pr
 \setlength{\itemsep}{0pt}
 \item Expanding addressing capabilities to support a greater amount of addressable nodes. 
 \item Simplifying header format to reduce the cost of packet handling.
-\item Improving support for extensions and options to allow greater flexibility in the future
+\item Improving support for extensions and options to allow greater flexibility in the future.
 \item Flowing labelling capability to label packets and thus to handle, e.g., real-time services.
-\item Authentication and privacy capabilities
+\item Authentication and privacy capabilities.
 \end{itemize}
 
 HTTP and WebSocket ensure that IoT can be used or extended by applications. For example, a web interface that can visualise temperature data. Subsequently, IoT network can be directly or indirectly connect to end users. 

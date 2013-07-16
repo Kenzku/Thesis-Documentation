@@ -3,7 +3,7 @@
 
 The WebSocket Protocol enables full-duplex communication through a single socket between a client and a remote server. For this reason, this technology decreases the amount of opening ports on server sides, comparing with the traditional mean of retrieving resource. Moreover, this protocol is not just an enhancement of the current HTTP protocol; it, however, represents enormous advance, especially for real-time, event-driven communication \cite{lubbers2010html5}.
 
-\section{Internet-based Communication Protocols and Standards}
+\section{Internet-based Communication Protocols}
 
 \subsection{TCP, UDP and IP}
 Transmission Control Protocol (TCP), one of the two major transport-layer protocols, provides a reliable bi-directional communication \cite{comer2008computer}. TCP addresses the communication problem between applications with the following major features: 
@@ -12,16 +12,16 @@ Transmission Control Protocol (TCP), one of the two major transport-layer protoc
 % You can use this command to set the items in the list closer to each other
 % (ITEM SEParation, the vertical space between the list items) 
 \setlength{\itemsep}{0pt}
-\item Transferring Data over a connection 
-\item Connecting two endpoints
-\item Data is received the same as it is delivered
-\item Data is sent in sequence
-\item Reliable startup and shutdown
+\item Transferring Data over a connection;
+\item Connecting two endpoints;
+\item Data is received the same as it is delivered;
+\item Data is sent in sequence;
+\item Reliable startup and shutdown;
 \end{itemize}
 
-User Datagram Protocol (UDP) is the other major transport-layer protocol used in the Internet \cite{comer2008computer}. Compared with TCP, UDP is less complex and thus less reliable. For example, UDP is connectionless, meaning a message can be sent between two endpoints without prior arrangement; UDP sends and receives individual messages, meaning it does not divide a message into multiple parts.
+The User Datagram Protocol (UDP) is the other major transport-layer protocol used in the Internet \cite{comer2008computer}. Compared with TCP, UDP is less complex and thus less reliable. For example, UDP is connectionless, meaning a message can be sent between two endpoints without prior arrangement; UDP sends and receives individual messages, meaning it does not divide a message into multiple parts.
 
-Internet Protocol (IP) provides a communication mechanism for computers or devices \cite{postel1981internet}. IP distinguishes each computer or device in network by a unique 32-bits number known as Internet Protocol Address (IP address). TCP or UDP packets are usually encapsulated into IP packets.
+The Internet Protocol (IP) provides a communication mechanism for computers or devices \cite{postel1981internet}. IP distinguishes each computer or device in network by a unique number known as Internet Protocol Address (IP address). TCP or UDP packets are usually encapsulated into IP packets.
 
 \subsection{HTTP}
 
@@ -47,7 +47,7 @@ However, this approach can radically improved by removing the redundant HTTP Req
 \subsection{HTML5 and WebSockets}
 \label{HTML5andWebSockets}
 
-HTML5 is hypernym that consist of a large number of web technology \cite{wang2012definitive}. HTML5 covers the following area: new semantics, new CSS styling, multimedia, Graphics \& 3D, Device Access, Performance, offline \& storage and connectivity. Amount all, the connectivity consists of communication technology such as Web Real-Time Communications (WebRTC), Server-Sent Events (SSE), Cross-Document messaging and WebSocket. WebRTC\footnote{http://www.webrtc.org/reference/architecture} provides realtime multimedia communication on web without requiring plugins; SSE provides an API for a browser to receive pushing notification from a server via an HTTP connection \cite{hickson2009server}; While Cross-Document messaging or Web Messaging largely expands the possibility and capability of communication of web browsers with least side-effect on security and privacy. Cross-Document messaging is designed to overcome the same-origin policy.
+HTML5 is hypernym that consist of a large number of web technology \cite{wang2012definitive}. HTML5 covers the following area: new semantics, new CSS styling, multimedia, Graphics and 3D, Device Access, Performance, offline \& storage and connectivity. Amount all, the connectivity consists of communication technology such as Web Real-Time Communications (WebRTC), Server-Sent Events (SSE), Cross-Document messaging and WebSocket. WebRTC\footnote{http://www.webrtc.org/reference/architecture} provides realtime multimedia communication on web without requiring plugins; SSE provides an API for a browser to receive pushing notification from a server via an HTTP connection \cite{hickson2009server}; While Cross-Document messaging or Web Messaging largely expands the possibility and capability of communication of web browsers with least side-effect on security and privacy. Cross-Document messaging is designed to overcome the same-origin policy.
 
 The goal of WebSocket technology is to provide a mechanism for browser-based applications that need two-way communication with servers that does not rely on opening multiple HTTP connections (e.g. using XMLHttpRequest or <iframe>s and long polling)\footnote{http://www.websocket.org}. Older web technology, like HTTP, remains inefficiencies problems \cite{wang2012definitive}. Firstly, it is not natively designed for nowadays Web Applications with rich contents and interactive demands; Secondly, overheads and unnecessary information cumulate swiftly as the interaction between the client and server continues. WebSocket improves communication problems by solving the above problems, while keeping simplicity. Both WebRTC and WebSocket are in effort to enhance the real-time communication. WebRTC provides APIs that allow web browsers communicate with each other directly, while WebSocket provides the real-time communication mechanism between a client and a server. Figure \ref{fig:client-server-ws} illustrates sequence diagram where a client (browser) fetches data from a server using WebSockets.
 
