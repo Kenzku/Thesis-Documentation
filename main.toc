@@ -22,7 +22,7 @@
 \contentsline {subsection}{\numberline {3.1.1}NFC and WSANs}{18}{subsection.3.1.1}
 \contentsline {subsection}{\numberline {3.1.2}Spime and Smart Items}{19}{subsection.3.1.2}
 \contentsline {section}{\numberline {3.2}Sensors and Actuators}{20}{section.3.2}
-\contentsline {section}{\numberline {3.3}Internet-based Communication Protocols and Standards with IoT}{20}{section.3.3}
+\contentsline {section}{\numberline {3.3}Internet-based Communication Protocols}{20}{section.3.3}
 \contentsline {subsection}{\numberline {3.3.1}REST}{22}{subsection.3.3.1}
 \contentsline {subsection}{\numberline {3.3.2}SOAP}{23}{subsection.3.3.2}
 \contentsline {subsection}{\numberline {3.3.3}CoAP}{24}{subsection.3.3.3}

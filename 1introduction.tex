@@ -6,7 +6,7 @@ After the web turning from 1.0 to 2.0 where the network as platform, spanning al
 
 Web browsers are now commonly installed in smart electronic equipments such as computers, smart phones, and tablets which can connect to the Internet. Typical contents, presented by web browsers, are text and multi-medias such as image, audio and video. These contents are stored in other computers connected by the Internet. Our work started at this point: a browser directly communicates with an internet-enabled device. To make the work interesting, the device should have good interoperability i.e., it should be able to communicate with sensors and actuator, or even with other devices.
 
-Usability is another important element that mentioned in Web 2.0. Web pages are not just pages that have simple colours, logos, and animation, but they are more like desktop application. Thus, Web pages are turning to Web applications\cite{Lewis:2006:WEB:1217666.1217669}.
+Usability is another important element that mentioned in Web 2.0. Web pages are not just pages that have simple colours, logos, and animation, but they are more like desktop application. Thus, Web pages are turning to Web applications  \cite{Lewis:2006:WEB:1217666.1217669}.
 
 With the radical improvement of content usability, Web applications contents have been presenting more dynamic. Data can be retrieved from multiple sources in real time and assembled on a single web application or page \cite{Lewis:2006:WEB:1217666.1217669}. A web browser, one of the user agents that retrieves contents identified by Uniform Resource Identifier (URI) \cite{ArchitectWorldWideWebVolumeOne}, is the gateway for users to the Internet.
 
@@ -18,5 +18,12 @@ In effort to solve the Ajax abuse, bidirectional and real-time communication pro
 
 \section{Contributions}
 
-In the thesis, we defined 
+In the thesis, we defined different patterns for web-based IoT applications suitable for time-sensitive and low overhead communications. Amongst, we focused on Publish/Subscribe (Pub/Sub), Remote Procedure Call (RPC) and Database-centric approach, as they cover the most desired features that the web-based IoT applications demand. Furthermore, we implemented the web-based IoT applications in two relevant scenarios, namely, home automation and social sensing. Specifically, we combined the first two patterns (Pub/Sub and RPC) with a HTML5 web technology, the WebSocket, and applied to home automation, enabling the web-based IoT application cross-platforms (such as mobiles and desktops). For the Database-centric approach, we presented this pattern in social sensing scenario, ensuring the whole web-based IoT application scalable, as the IoT data increase enormously.  
+
+For the purpose of ensuring realtime communication in the web-base IoT applications, whilst reserving scalability and security, we developed a scalable and robust architecture for each scenario of the aforementioned applications, based on each requirement. Through the architectures, we managed to achieve scalability and security in our implementation result. Moreover, we presented a way to visualise IoT data. This is an essential aspect to improve usability for the end users to inspect, review and manage IoT data.
+
+We compared and evaluated different technologies and protocols for IoT-based communications. Expressly, we estimated potential web technologies and protocols functionally. This comparison efficiently filters the protocols that are not suitable for the web-based IoT applications. For home automation scenario, We further actioned comparison on message overheads and Roundtrip Delayed Time (RTT). The obtained results show that our approach has advantage.
+
 \section{Structure}
+
+The rest of the thesis is organised as follows. Chapter 2 introduces the related background about 

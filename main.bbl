@@ -56,6 +56,13 @@
 {\sc Deering, S.~E.}
 \newblock Internet protocol, version 6 (ipv6) specification.
 
+\bibitem{francesco2012storage}
+{\sc Di~Francesco, M., Li, N., Raj, M., and Das, S.~K.}
+\newblock A storage infrastructure for heterogeneous and multimedia data in the
+  internet of things.
+\newblock In {\em Green Computing and Communications (GreenCom), 2012 IEEE
+  International Conference on\/} (2012), IEEE, pp.~26--33.
+
 \bibitem{dierks2008rfc}
 {\sc Dierks, T., and Rescorla, E.}
 \newblock Rfc 5246: The transport layer security (tls) protocol.
@@ -76,13 +83,6 @@
 \newblock Principled design of the modern web architecture.
 \newblock {\em ACM Transactions on Internet Technology (TOIT) 2}, 2 (2002),
   115--150.
-
-\bibitem{francesco2012storage}
-{\sc Francesco, M.~D., Li, N., Raj, M., and Das, S.~K.}
-\newblock A storage infrastructure for heterogeneous and multimedia data in the
-  internet of things.
-\newblock In {\em Green Computing and Communications (GreenCom), 2012 IEEE
-  International Conference on\/} (2012), IEEE, pp.~26--33.
 
 \bibitem{garrett2005ajax}
 {\sc Garrett, J.~J., et~al.}
