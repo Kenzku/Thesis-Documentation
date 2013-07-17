@@ -15,19 +15,19 @@
 \contentsline {subsection}{\numberline {2.1.3}HTML5 and WebSockets}{13}{subsection.2.1.3}
 \contentsline {section}{\numberline {2.2}Traditional Communication}{14}{section.2.2}
 \contentsline {section}{\numberline {2.3}WebSocket}{16}{section.2.3}
-\contentsline {section}{\numberline {2.4}WAMP}{16}{section.2.4}
+\contentsline {section}{\numberline {2.4}WAMP}{17}{section.2.4}
 \contentsline {section}{\numberline {2.5}Other Registered Subprotocols}{17}{section.2.5}
 \contentsline {chapter}{\numberline {3}Internet of Things}{21}{chapter.3}
 \contentsline {section}{\numberline {3.1}Things: Bridging The Real and The Virtual World}{21}{section.3.1}
-\contentsline {subsection}{\numberline {3.1.1}NFC and WSANs}{21}{subsection.3.1.1}
+\contentsline {subsection}{\numberline {3.1.1}NFC and WSANs}{22}{subsection.3.1.1}
 \contentsline {subsection}{\numberline {3.1.2}Spime and Smart Items}{22}{subsection.3.1.2}
 \contentsline {section}{\numberline {3.2}Sensors and Actuators}{23}{section.3.2}
 \contentsline {section}{\numberline {3.3}Web Services for the IoT}{24}{section.3.3}
-\contentsline {subsection}{\numberline {3.3.1}REST}{25}{subsection.3.3.1}
+\contentsline {subsection}{\numberline {3.3.1}REST}{26}{subsection.3.3.1}
 \contentsline {subsection}{\numberline {3.3.2}SOAP}{27}{subsection.3.3.2}
 \contentsline {subsection}{\numberline {3.3.3}CoAP}{28}{subsection.3.3.3}
-\contentsline {subsection}{\numberline {3.3.4}MQTT}{29}{subsection.3.3.4}
-\contentsline {subsection}{\numberline {3.3.5}Comparison}{30}{subsection.3.3.5}
+\contentsline {subsection}{\numberline {3.3.4}MQTT}{30}{subsection.3.3.4}
+\contentsline {subsection}{\numberline {3.3.5}Comparison}{31}{subsection.3.3.5}
 \contentsline {chapter}{\numberline {4}Design and Implementation of Web-based IoT Applications}{32}{chapter.4}
 \contentsline {section}{\numberline {4.1}Patterns for Web-based IoT Applications}{32}{section.4.1}
 \contentsline {subsection}{\numberline {4.1.1}RPC}{32}{subsection.4.1.1}
@@ -35,23 +35,23 @@
 \contentsline {subsection}{\numberline {4.1.3}Database-centric Approach}{36}{subsection.4.1.3}
 \contentsline {section}{\numberline {4.2}Smart Lighting and Control Application}{36}{section.4.2}
 \contentsline {subsection}{\numberline {4.2.1}Components}{36}{subsection.4.2.1}
-\contentsline {subsection}{\numberline {4.2.2}Implementation of The Backend}{36}{subsection.4.2.2}
-\contentsline {subsection}{\numberline {4.2.3}Implementation of The Front-end}{40}{subsection.4.2.3}
+\contentsline {subsection}{\numberline {4.2.2}Implementation of The Backend}{37}{subsection.4.2.2}
+\contentsline {subsection}{\numberline {4.2.3}Implementation of The Front-end}{39}{subsection.4.2.3}
 \contentsline {subsection}{\numberline {4.2.4}Overall Structure}{41}{subsection.4.2.4}
-\contentsline {subsection}{\numberline {4.2.5}The Role of Messaging Patterns}{41}{subsection.4.2.5}
-\contentsline {section}{\numberline {4.3}Social Sensing}{43}{section.4.3}
-\contentsline {subsection}{\numberline {4.3.1}Features}{43}{subsection.4.3.1}
+\contentsline {subsection}{\numberline {4.2.5}The Role of Messaging Patterns}{42}{subsection.4.2.5}
+\contentsline {section}{\numberline {4.3}Social Sensing}{44}{section.4.3}
+\contentsline {subsection}{\numberline {4.3.1}Features}{44}{subsection.4.3.1}
 \contentsline {subsection}{\numberline {4.3.2}Stack and Architecture}{44}{subsection.4.3.2}
 \contentsline {subsection}{\numberline {4.3.3}Retrieving Data}{45}{subsection.4.3.3}
-\contentsline {chapter}{\numberline {5}Evaluation}{46}{chapter.5}
-\contentsline {section}{\numberline {5.1}Origin and Justification}{46}{section.5.1}
-\contentsline {section}{\numberline {5.2}Tools and Setup}{47}{section.5.2}
-\contentsline {section}{\numberline {5.3}Simulation}{48}{section.5.3}
-\contentsline {section}{\numberline {5.4}Measurement}{49}{section.5.4}
-\contentsline {section}{\numberline {5.5}Scalability}{49}{section.5.5}
-\contentsline {section}{\numberline {5.6}Security}{51}{section.5.6}
-\contentsline {chapter}{\numberline {6}Conclusion}{53}{chapter.6}
-\contentsline {chapter}{\numberline {A}First Appendix}{59}{appendix.A}
-\contentsline {subsection}{\numberline {A.0.1}JSON}{59}{subsection.A.0.1}
-\contentsline {subsection}{\numberline {A.0.2}URI}{59}{subsection.A.0.2}
-\contentsline {subsection}{\numberline {A.0.3}XML}{59}{subsection.A.0.3}
+\contentsline {chapter}{\numberline {5}Evaluation}{47}{chapter.5}
+\contentsline {section}{\numberline {5.1}Origin and Justification}{47}{section.5.1}
+\contentsline {section}{\numberline {5.2}Tools and Setup}{48}{section.5.2}
+\contentsline {section}{\numberline {5.3}Simulation}{49}{section.5.3}
+\contentsline {section}{\numberline {5.4}Measurement}{50}{section.5.4}
+\contentsline {section}{\numberline {5.5}Scalability}{50}{section.5.5}
+\contentsline {section}{\numberline {5.6}Security}{52}{section.5.6}
+\contentsline {chapter}{\numberline {6}Conclusion}{54}{chapter.6}
+\contentsline {chapter}{\numberline {A}First Appendix}{60}{appendix.A}
+\contentsline {subsection}{\numberline {A.0.1}JSON}{60}{subsection.A.0.1}
+\contentsline {subsection}{\numberline {A.0.2}URI}{60}{subsection.A.0.2}
+\contentsline {subsection}{\numberline {A.0.3}XML}{60}{subsection.A.0.3}
