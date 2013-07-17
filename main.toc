@@ -6,52 +6,52 @@
 \contentsline {chapter}{Abbreviations and Acronyms}{4}{chapter*.1}
 \contentsline {chapter}{\numberline {1}Introduction}{7}{chapter.1}
 \contentsline {section}{\numberline {1.1}Background and Objectives}{7}{section.1.1}
-\contentsline {section}{\numberline {1.2}Contributions}{8}{section.1.2}
-\contentsline {section}{\numberline {1.3}Structure}{8}{section.1.3}
-\contentsline {chapter}{\numberline {2}Web Technologies}{9}{chapter.2}
-\contentsline {section}{\numberline {2.1}Internet-based Communication Protocols}{9}{section.2.1}
-\contentsline {subsection}{\numberline {2.1.1}TCP, UDP and IP}{9}{subsection.2.1.1}
-\contentsline {subsection}{\numberline {2.1.2}HTTP}{10}{subsection.2.1.2}
-\contentsline {subsection}{\numberline {2.1.3}HTML5 and WebSockets}{11}{subsection.2.1.3}
-\contentsline {section}{\numberline {2.2}Traditional Communication}{12}{section.2.2}
-\contentsline {section}{\numberline {2.3}WebSocket}{13}{section.2.3}
-\contentsline {section}{\numberline {2.4}WAMP}{14}{section.2.4}
-\contentsline {section}{\numberline {2.5}Other Registered Subprotocols}{14}{section.2.5}
-\contentsline {chapter}{\numberline {3}Internet Of Things}{18}{chapter.3}
-\contentsline {section}{\numberline {3.1}Things: Bridging The Real and The Virtual World}{18}{section.3.1}
-\contentsline {subsection}{\numberline {3.1.1}NFC and WSANs}{18}{subsection.3.1.1}
-\contentsline {subsection}{\numberline {3.1.2}Spime and Smart Items}{19}{subsection.3.1.2}
-\contentsline {section}{\numberline {3.2}Sensors and Actuators}{20}{section.3.2}
-\contentsline {section}{\numberline {3.3}Internet-based Communication Protocols}{20}{section.3.3}
-\contentsline {subsection}{\numberline {3.3.1}REST}{22}{subsection.3.3.1}
-\contentsline {subsection}{\numberline {3.3.2}SOAP}{23}{subsection.3.3.2}
-\contentsline {subsection}{\numberline {3.3.3}CoAP}{24}{subsection.3.3.3}
-\contentsline {subsection}{\numberline {3.3.4}MQTT}{25}{subsection.3.3.4}
-\contentsline {subsection}{\numberline {3.3.5}Comparison}{26}{subsection.3.3.5}
-\contentsline {chapter}{\numberline {4}Design and Implementation of Web-based IoT Applications}{28}{chapter.4}
-\contentsline {section}{\numberline {4.1}Patterns for Web-based IoT Applications}{28}{section.4.1}
-\contentsline {subsection}{\numberline {4.1.1}RPC}{28}{subsection.4.1.1}
-\contentsline {subsection}{\numberline {4.1.2}Publish/Subscribe}{29}{subsection.4.1.2}
-\contentsline {subsection}{\numberline {4.1.3}Database-centric Approach}{31}{subsection.4.1.3}
-\contentsline {section}{\numberline {4.2}Smart Lighting and Control Application}{32}{section.4.2}
-\contentsline {subsection}{\numberline {4.2.1}Components}{32}{subsection.4.2.1}
-\contentsline {subsection}{\numberline {4.2.2}Implementation of The Backend}{32}{subsection.4.2.2}
-\contentsline {subsection}{\numberline {4.2.3}Implementation of The Front-end}{34}{subsection.4.2.3}
-\contentsline {subsection}{\numberline {4.2.4}Overall Structure}{35}{subsection.4.2.4}
-\contentsline {subsection}{\numberline {4.2.5}The Role of Messaging Patterns}{36}{subsection.4.2.5}
-\contentsline {section}{\numberline {4.3}Social Sensing}{37}{section.4.3}
-\contentsline {subsection}{\numberline {4.3.1}Features}{37}{subsection.4.3.1}
-\contentsline {subsection}{\numberline {4.3.2}Stack and Architecture}{38}{subsection.4.3.2}
-\contentsline {subsection}{\numberline {4.3.3}Retrieving Data}{40}{subsection.4.3.3}
-\contentsline {chapter}{\numberline {5}Evaluation}{41}{chapter.5}
-\contentsline {section}{\numberline {5.1}Origin and Justification}{41}{section.5.1}
-\contentsline {section}{\numberline {5.2}Tools and Setup}{42}{section.5.2}
-\contentsline {section}{\numberline {5.3}Simulation}{43}{section.5.3}
-\contentsline {section}{\numberline {5.4}Measurement}{43}{section.5.4}
-\contentsline {section}{\numberline {5.5}Scalability}{44}{section.5.5}
-\contentsline {section}{\numberline {5.6}Security}{46}{section.5.6}
-\contentsline {chapter}{\numberline {6}Conclusion}{47}{chapter.6}
-\contentsline {chapter}{\numberline {A}First Appendix}{53}{appendix.A}
-\contentsline {subsection}{\numberline {A.0.1}JSON}{53}{subsection.A.0.1}
-\contentsline {subsection}{\numberline {A.0.2}URI}{53}{subsection.A.0.2}
-\contentsline {subsection}{\numberline {A.0.3}XML}{53}{subsection.A.0.3}
+\contentsline {section}{\numberline {1.2}Contributions}{9}{section.1.2}
+\contentsline {section}{\numberline {1.3}Structure}{9}{section.1.3}
+\contentsline {chapter}{\numberline {2}Web Technologies}{11}{chapter.2}
+\contentsline {section}{\numberline {2.1}Internet-based Communication Protocols}{11}{section.2.1}
+\contentsline {subsection}{\numberline {2.1.1}TCP, UDP and IP}{11}{subsection.2.1.1}
+\contentsline {subsection}{\numberline {2.1.2}HTTP}{12}{subsection.2.1.2}
+\contentsline {subsection}{\numberline {2.1.3}HTML5 and WebSockets}{13}{subsection.2.1.3}
+\contentsline {section}{\numberline {2.2}Traditional Communication}{14}{section.2.2}
+\contentsline {section}{\numberline {2.3}WebSocket}{16}{section.2.3}
+\contentsline {section}{\numberline {2.4}WAMP}{16}{section.2.4}
+\contentsline {section}{\numberline {2.5}Other Registered Subprotocols}{17}{section.2.5}
+\contentsline {chapter}{\numberline {3}Internet of Things}{21}{chapter.3}
+\contentsline {section}{\numberline {3.1}Things: Bridging The Real and The Virtual World}{21}{section.3.1}
+\contentsline {subsection}{\numberline {3.1.1}NFC and WSANs}{21}{subsection.3.1.1}
+\contentsline {subsection}{\numberline {3.1.2}Spime and Smart Items}{22}{subsection.3.1.2}
+\contentsline {section}{\numberline {3.2}Sensors and Actuators}{23}{section.3.2}
+\contentsline {section}{\numberline {3.3}Web Services for the IoT}{24}{section.3.3}
+\contentsline {subsection}{\numberline {3.3.1}REST}{25}{subsection.3.3.1}
+\contentsline {subsection}{\numberline {3.3.2}SOAP}{27}{subsection.3.3.2}
+\contentsline {subsection}{\numberline {3.3.3}CoAP}{28}{subsection.3.3.3}
+\contentsline {subsection}{\numberline {3.3.4}MQTT}{29}{subsection.3.3.4}
+\contentsline {subsection}{\numberline {3.3.5}Comparison}{30}{subsection.3.3.5}
+\contentsline {chapter}{\numberline {4}Design and Implementation of Web-based IoT Applications}{32}{chapter.4}
+\contentsline {section}{\numberline {4.1}Patterns for Web-based IoT Applications}{32}{section.4.1}
+\contentsline {subsection}{\numberline {4.1.1}RPC}{32}{subsection.4.1.1}
+\contentsline {subsection}{\numberline {4.1.2}Publish/Subscribe}{34}{subsection.4.1.2}
+\contentsline {subsection}{\numberline {4.1.3}Database-centric Approach}{36}{subsection.4.1.3}
+\contentsline {section}{\numberline {4.2}Smart Lighting and Control Application}{36}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}Components}{36}{subsection.4.2.1}
+\contentsline {subsection}{\numberline {4.2.2}Implementation of The Backend}{36}{subsection.4.2.2}
+\contentsline {subsection}{\numberline {4.2.3}Implementation of The Front-end}{40}{subsection.4.2.3}
+\contentsline {subsection}{\numberline {4.2.4}Overall Structure}{41}{subsection.4.2.4}
+\contentsline {subsection}{\numberline {4.2.5}The Role of Messaging Patterns}{41}{subsection.4.2.5}
+\contentsline {section}{\numberline {4.3}Social Sensing}{43}{section.4.3}
+\contentsline {subsection}{\numberline {4.3.1}Features}{43}{subsection.4.3.1}
+\contentsline {subsection}{\numberline {4.3.2}Stack and Architecture}{44}{subsection.4.3.2}
+\contentsline {subsection}{\numberline {4.3.3}Retrieving Data}{45}{subsection.4.3.3}
+\contentsline {chapter}{\numberline {5}Evaluation}{46}{chapter.5}
+\contentsline {section}{\numberline {5.1}Origin and Justification}{46}{section.5.1}
+\contentsline {section}{\numberline {5.2}Tools and Setup}{47}{section.5.2}
+\contentsline {section}{\numberline {5.3}Simulation}{48}{section.5.3}
+\contentsline {section}{\numberline {5.4}Measurement}{49}{section.5.4}
+\contentsline {section}{\numberline {5.5}Scalability}{49}{section.5.5}
+\contentsline {section}{\numberline {5.6}Security}{51}{section.5.6}
+\contentsline {chapter}{\numberline {6}Conclusion}{53}{chapter.6}
+\contentsline {chapter}{\numberline {A}First Appendix}{59}{appendix.A}
+\contentsline {subsection}{\numberline {A.0.1}JSON}{59}{subsection.A.0.1}
+\contentsline {subsection}{\numberline {A.0.2}URI}{59}{subsection.A.0.2}
+\contentsline {subsection}{\numberline {A.0.3}XML}{59}{subsection.A.0.3}
