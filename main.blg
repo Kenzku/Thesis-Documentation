@@ -9,6 +9,7 @@ Warning--empty year in fieldingrfc
 Warning--empty journal in gudginsoap
 Warning--empty journal in hammer2010oauth
 Warning--empty journal in hapner2012messagebroker
+Warning--empty journal in ArchitectWorldWideWebVolumeOne
 Warning--empty journal in masinter2005uniform
 Warning--can't use both volume and number fields in nielsen1997network
 Warning--empty journal in postel1981internet
@@ -17,43 +18,43 @@ Warning--empty journal in srinivasan1995rpc
 Warning--empty journal in sterling2005shaping
 You've used 45 entries,
             2253 wiz_defined-function locations,
-            742 strings with 10164 characters,
-and the built_in function-call counts, 12659 in all, are:
-= -- 1174
-> -- 660
+            742 strings with 10156 characters,
+and the built_in function-call counts, 12667 in all, are:
+= -- 1177
+> -- 665
 < -- 0
-+ -- 281
-- -- 228
-* -- 881
-:= -- 2154
++ -- 283
+- -- 230
+* -- 885
+:= -- 2162
 add.period$ -- 118
 call.type$ -- 45
-change.case$ -- 244
+change.case$ -- 245
 chr.to.int$ -- 0
-cite$ -- 57
+cite$ -- 58
 duplicate$ -- 460
-empty$ -- 982
-format.name$ -- 228
-if$ -- 2565
+empty$ -- 972
+format.name$ -- 230
+if$ -- 2561
 int.to.chr$ -- 0
 int.to.str$ -- 45
-missing$ -- 41
+missing$ -- 42
 newline$ -- 211
 num.names$ -- 90
-pop$ -- 281
+pop$ -- 277
 preamble$ -- 1
-purify$ -- 202
+purify$ -- 203
 quote$ -- 0
-skip$ -- 315
+skip$ -- 312
 stack$ -- 0
 substring$ -- 532
-swap$ -- 110
+swap$ -- 109
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 172
-warning$ -- 12
+warning$ -- 13
 while$ -- 119
 width$ -- 47
-write$ -- 404
-(There were 12 warnings)
+write$ -- 403
+(There were 13 warnings)

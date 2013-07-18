@@ -48,7 +48,11 @@
 \BOOKMARK [1][-]{section.5.5}{5.5 Scalability}{chapter.5}% 48
 \BOOKMARK [1][-]{section.5.6}{5.6 Security}{chapter.5}% 49
 \BOOKMARK [0][]{chapter.6}{6 Conclusion}{}% 50
-\BOOKMARK [0][]{appendix.A}{A First Appendix}{}% 51
-\BOOKMARK [1][-]{subsection.A.0.1}{A.0.1 JSON}{appendix.A}% 52
-\BOOKMARK [2][-]{subsection.A.0.2}{A.0.2 URI}{subsection.A.0.1}% 53
-\BOOKMARK [2][-]{subsection.A.0.3}{A.0.3 XML}{subsection.A.0.1}% 54
+\BOOKMARK [0][]{appendix.A}{A Related Protocols}{}% 51
+\BOOKMARK [1][-]{section.A.1}{A.1 JSON}{appendix.A}% 52
+\BOOKMARK [1][-]{section.A.2}{A.2 URI}{appendix.A}% 53
+\BOOKMARK [1][-]{section.A.3}{A.3 XML}{appendix.A}% 54
+\BOOKMARK [0][]{appendix.B}{B Screenshots}{}% 55
+\BOOKMARK [1][-]{section.B.1}{B.1 Web-based IoT Applications Screenshots}{appendix.B}% 56
+\BOOKMARK [2][-]{subsection.B.1.1}{B.1.1 Smart Lighting and Control Application}{section.B.1}% 57
+\BOOKMARK [2][-]{subsection.B.1.2}{B.1.2 Social Sensing Application}{section.B.1}% 58

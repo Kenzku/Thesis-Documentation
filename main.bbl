@@ -1,9 +1,5 @@
 \begin{thebibliography}{10}
 
-\bibitem{ArchitectWorldWideWebVolumeOne}
-{\sc acobs, Ian;~Walsh, N.}
-\newblock Architecture of the world wide web, volume one, 2004.
-
 \bibitem{ashton2009internet}
 {\sc Ashton, K.}
 \newblock That ‘internet of things’ thing.
@@ -118,6 +114,10 @@
 \bibitem{MQTTV31ProtocolSpec}
 {\sc International Business Machines Corporation~(IBM), E.}
 \newblock Mqtt v3.1 protocol specification, 2010.
+
+\bibitem{ArchitectWorldWideWebVolumeOne}
+{\sc Jacobs, I., and Walsh, N.}
+\newblock Architecture of the world wide web.
 
 \bibitem{Lewis:2006:WEB:1217666.1217669}
 {\sc Lewis, D.}

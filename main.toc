@@ -4,19 +4,19 @@
 \select@language {english}
 \select@language {english}
 \contentsline {chapter}{Abbreviations and Acronyms}{4}{chapter*.1}
-\contentsline {chapter}{\numberline {1}Introduction}{7}{chapter.1}
-\contentsline {section}{\numberline {1.1}Background and Objectives}{7}{section.1.1}
-\contentsline {section}{\numberline {1.2}Contributions}{9}{section.1.2}
-\contentsline {section}{\numberline {1.3}Structure}{9}{section.1.3}
-\contentsline {chapter}{\numberline {2}Web Technologies}{11}{chapter.2}
-\contentsline {section}{\numberline {2.1}Internet-based Communication Protocols}{11}{section.2.1}
-\contentsline {subsection}{\numberline {2.1.1}TCP, UDP and IP}{11}{subsection.2.1.1}
-\contentsline {subsection}{\numberline {2.1.2}HTTP}{12}{subsection.2.1.2}
-\contentsline {subsection}{\numberline {2.1.3}HTML5 and WebSockets}{13}{subsection.2.1.3}
-\contentsline {section}{\numberline {2.2}Traditional Communication}{14}{section.2.2}
-\contentsline {section}{\numberline {2.3}WebSocket}{16}{section.2.3}
-\contentsline {section}{\numberline {2.4}WAMP}{17}{section.2.4}
-\contentsline {section}{\numberline {2.5}Other Registered Subprotocols}{17}{section.2.5}
+\contentsline {chapter}{\numberline {1}Introduction}{8}{chapter.1}
+\contentsline {section}{\numberline {1.1}Background and Objectives}{8}{section.1.1}
+\contentsline {section}{\numberline {1.2}Contributions}{10}{section.1.2}
+\contentsline {section}{\numberline {1.3}Structure}{10}{section.1.3}
+\contentsline {chapter}{\numberline {2}Web Technologies}{12}{chapter.2}
+\contentsline {section}{\numberline {2.1}Internet-based Communication Protocols}{12}{section.2.1}
+\contentsline {subsection}{\numberline {2.1.1}TCP, UDP and IP}{12}{subsection.2.1.1}
+\contentsline {subsection}{\numberline {2.1.2}HTTP}{13}{subsection.2.1.2}
+\contentsline {subsection}{\numberline {2.1.3}HTML5 and WebSockets}{14}{subsection.2.1.3}
+\contentsline {section}{\numberline {2.2}Traditional Communication}{16}{section.2.2}
+\contentsline {section}{\numberline {2.3}WebSocket}{18}{section.2.3}
+\contentsline {section}{\numberline {2.4}WAMP}{19}{section.2.4}
+\contentsline {section}{\numberline {2.5}Other Registered Subprotocols}{19}{section.2.5}
 \contentsline {chapter}{\numberline {3}Internet of Things}{21}{chapter.3}
 \contentsline {section}{\numberline {3.1}Things: Bridging The Real and The Virtual World}{21}{section.3.1}
 \contentsline {subsection}{\numberline {3.1.1}NFC and WSANs}{22}{subsection.3.1.1}
@@ -28,30 +28,34 @@
 \contentsline {subsection}{\numberline {3.3.3}CoAP}{28}{subsection.3.3.3}
 \contentsline {subsection}{\numberline {3.3.4}MQTT}{30}{subsection.3.3.4}
 \contentsline {subsection}{\numberline {3.3.5}Comparison}{31}{subsection.3.3.5}
-\contentsline {chapter}{\numberline {4}Design and Implementation of Web-based IoT Applications}{32}{chapter.4}
-\contentsline {section}{\numberline {4.1}Patterns for Web-based IoT Applications}{32}{section.4.1}
-\contentsline {subsection}{\numberline {4.1.1}RPC}{32}{subsection.4.1.1}
-\contentsline {subsection}{\numberline {4.1.2}Publish/Subscribe}{34}{subsection.4.1.2}
-\contentsline {subsection}{\numberline {4.1.3}Database-centric Approach}{36}{subsection.4.1.3}
-\contentsline {section}{\numberline {4.2}Smart Lighting and Control Application}{36}{section.4.2}
-\contentsline {subsection}{\numberline {4.2.1}Components}{36}{subsection.4.2.1}
-\contentsline {subsection}{\numberline {4.2.2}Implementation of The Backend}{37}{subsection.4.2.2}
-\contentsline {subsection}{\numberline {4.2.3}Implementation of The Front-end}{39}{subsection.4.2.3}
-\contentsline {subsection}{\numberline {4.2.4}Overall Structure}{41}{subsection.4.2.4}
-\contentsline {subsection}{\numberline {4.2.5}The Role of Messaging Patterns}{42}{subsection.4.2.5}
-\contentsline {section}{\numberline {4.3}Social Sensing}{44}{section.4.3}
-\contentsline {subsection}{\numberline {4.3.1}Features}{44}{subsection.4.3.1}
-\contentsline {subsection}{\numberline {4.3.2}Stack and Architecture}{44}{subsection.4.3.2}
-\contentsline {subsection}{\numberline {4.3.3}Retrieving Data}{45}{subsection.4.3.3}
-\contentsline {chapter}{\numberline {5}Evaluation}{47}{chapter.5}
-\contentsline {section}{\numberline {5.1}Origin and Justification}{47}{section.5.1}
-\contentsline {section}{\numberline {5.2}Tools and Setup}{48}{section.5.2}
-\contentsline {section}{\numberline {5.3}Simulation}{49}{section.5.3}
-\contentsline {section}{\numberline {5.4}Measurement}{50}{section.5.4}
-\contentsline {section}{\numberline {5.5}Scalability}{50}{section.5.5}
-\contentsline {section}{\numberline {5.6}Security}{52}{section.5.6}
-\contentsline {chapter}{\numberline {6}Conclusion}{54}{chapter.6}
-\contentsline {chapter}{\numberline {A}First Appendix}{60}{appendix.A}
-\contentsline {subsection}{\numberline {A.0.1}JSON}{60}{subsection.A.0.1}
-\contentsline {subsection}{\numberline {A.0.2}URI}{60}{subsection.A.0.2}
-\contentsline {subsection}{\numberline {A.0.3}XML}{60}{subsection.A.0.3}
+\contentsline {chapter}{\numberline {4}Design and Implementation of Web-based IoT Applications}{33}{chapter.4}
+\contentsline {section}{\numberline {4.1}Patterns for Web-based IoT Applications}{33}{section.4.1}
+\contentsline {subsection}{\numberline {4.1.1}RPC}{33}{subsection.4.1.1}
+\contentsline {subsection}{\numberline {4.1.2}Publish/Subscribe}{35}{subsection.4.1.2}
+\contentsline {subsection}{\numberline {4.1.3}Database-centric Approach}{37}{subsection.4.1.3}
+\contentsline {section}{\numberline {4.2}Smart Lighting and Control Application}{38}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}Components}{38}{subsection.4.2.1}
+\contentsline {subsection}{\numberline {4.2.2}Implementation of The Backend}{39}{subsection.4.2.2}
+\contentsline {subsection}{\numberline {4.2.3}Implementation of The Front-end}{42}{subsection.4.2.3}
+\contentsline {subsection}{\numberline {4.2.4}Overall Structure}{43}{subsection.4.2.4}
+\contentsline {subsection}{\numberline {4.2.5}The Role of Messaging Patterns}{43}{subsection.4.2.5}
+\contentsline {section}{\numberline {4.3}Social Sensing}{45}{section.4.3}
+\contentsline {subsection}{\numberline {4.3.1}Features}{45}{subsection.4.3.1}
+\contentsline {subsection}{\numberline {4.3.2}Stack and Architecture}{46}{subsection.4.3.2}
+\contentsline {subsection}{\numberline {4.3.3}Retrieving Data}{47}{subsection.4.3.3}
+\contentsline {chapter}{\numberline {5}Evaluation}{49}{chapter.5}
+\contentsline {section}{\numberline {5.1}Origin and Justification}{49}{section.5.1}
+\contentsline {section}{\numberline {5.2}Tools and Setup}{50}{section.5.2}
+\contentsline {section}{\numberline {5.3}Simulation}{51}{section.5.3}
+\contentsline {section}{\numberline {5.4}Measurement}{52}{section.5.4}
+\contentsline {section}{\numberline {5.5}Scalability}{53}{section.5.5}
+\contentsline {section}{\numberline {5.6}Security}{54}{section.5.6}
+\contentsline {chapter}{\numberline {6}Conclusion}{55}{chapter.6}
+\contentsline {chapter}{\numberline {A}Related Protocols}{61}{appendix.A}
+\contentsline {section}{\numberline {A.1}JSON}{61}{section.A.1}
+\contentsline {section}{\numberline {A.2}URI}{61}{section.A.2}
+\contentsline {section}{\numberline {A.3}XML}{62}{section.A.3}
+\contentsline {chapter}{\numberline {B}Screenshots}{63}{appendix.B}
+\contentsline {section}{\numberline {B.1}Web-based IoT Applications Screenshots}{63}{section.B.1}
+\contentsline {subsection}{\numberline {B.1.1}Smart Lighting and Control Application}{63}{subsection.B.1.1}
+\contentsline {subsection}{\numberline {B.1.2}Social Sensing Application}{63}{subsection.B.1.2}

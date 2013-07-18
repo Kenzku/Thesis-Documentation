@@ -144,7 +144,7 @@ Level 2 is called ``Exactly once delivery'', when the message will be received a
 WAMP, however, does not support such QoS control. Finally, WAMP has been officially registered in the WebSocket Subprotocol Name Registry, while MQTT is not a member.
 
 \subsection{Comparison}
-Table \ref{table:WAMPCoAPandMQTTcomparison} is a summary of the comparison between WAMP, CoAP and MQTT.
+In terms of the transport layer, CoAP works on UDP, while WAMP and MQTT work on TCP. As for the means of fetching resources, the three protocols differ from each other. WAMP retrieves resources over WebSockets, while CoAP retrieves via HTTP requests and MQTT retrieves over BSD Sockets. WAMP is the only protocol that is compatible with browsers directly, while CoAP and MQTT can not interact with browsers directly. For example, CoAP can be applied on Firefox browser via a specific plugin. In terms of communication, all the three protocols need servers. For example, WAMP needs a WebSocket server supporting WAMP. In terms of messaging patterns, WAMP is the only protocol that supports RPC, while CoAP is still using the request/response model. However, all the three protocols support Pub/Sub. As for proxy compatibility and requirement, WAMP supports proxy via the WebSocket protocol, while CoAP built-in supports proxy. MQTT needs an external proxy to translate the protocol, which implies delay in communication. Table \ref{table:WAMPCoAPandMQTTcomparison} is a summary of the comparison between WAMP, CoAP and MQTT.
 
 % If you need to have linefeeds (\\) inside a cell, you must create a new
 % paragraph-formatting environment inside the cell. Most common ones are 
