@@ -63,7 +63,7 @@ When a request is sent to a web service layer, this layer will start a procedure
 In the following, we will talk about a sequence of protocols that can be used in Web Services.
 
 \subsection{REST}
-Representational State Transfer (REST) is introduced by Roy T. Fielding in his doctoral dissertation in 2000 \cite {fielding2002principled}. REST is a web architectural style. It is, however, not a standard or protocol. 
+Representational State Transfer (REST) is introduced by Roy T. Fielding in his doctoral dissertation in 2000 \cite{fielding2002principled}. REST is a web architectural style. It is, however, not a standard or protocol. 
 
 An architectural style is ``a coordinated set of architectural constraints that restricts the roles and features of architectural elements, and the allowed relationships among those elements, within any architecture that conforms to the style. Thus, a style provides a name by which we can refer to a packaged set of architectural design decisions and the set of architectural properties that are induced by applying the style.'' \cite {fielding2002principled}
 
@@ -71,7 +71,7 @@ REST was developed in parallel with HTTP protocols with the basic four constrain
 
 All REST communications are stateless. Thus, each request involves all the necessary information that a receiver needs to understand the request. An example of stateless design is shown in Figure \ref{fig:stateless-design} \cite{rodriguez2008restful}
 
-\begin{figure}[ht]
+\begin{figure}[t]
   \begin{center}
     \includegraphics[width=1\textwidth]{images/stateless-design.pdf}
     \caption{Stateless Design}
@@ -81,9 +81,9 @@ All REST communications are stateless. Thus, each request involves all the neces
 
 As it is illustrated, the request specifies which page the client fetches, i.e., page 2; while the response message contains what the current page is, what the next page is and also the requested page.
 
-On the contrary, stateful design, as shown by Figure \ref{fig:stateful-design} \cite{rodriguez2008restful}, the server saves each client status and responses the corresponding status to the clients who request them. In \ref{fig:stateful-design}, the client need not to specify which page it fetches, but just call the corresponding procedure. The server computes the result and returns the page to the client.
+On the contrary, stateful design, as shown by Figure \ref{fig:stateful-design} \cite{rodriguez2008restful}, the server saves each client status and responses the corresponding status to the clients who request them. In Figure \ref{fig:stateful-design}, the client need not to specify which page it fetches, but just call the corresponding procedure. The server computes the result and returns the page to the client.
 
-\begin{figure}[ht]
+\begin{figure}[t]
   \begin{center}
     \includegraphics[width=1\textwidth]{images/stateful-design.pdf}
     \caption{Stateful Design}
@@ -115,7 +115,7 @@ CoAP applications or endpoints interact via a request/response model. It also su
 
 Unlike HTTP, CoAP stack is designed for constrained environment, while CoAP, additionally, differ from HTTP in terms of power consumption and overhead. Generally, CoAP power consumption bytes per-transaction are lower than those of HTTP, which implies longer battery lifetime. Figure \ref{fig:http-and-coap-stack} illustrates a comparison between HTTP and CoAP stack. CoAP consists of the concept of HTTP, but it has been re-designed with the respect to the low processing power and energy consumption constraints \cite{colitti2011integrating}.
 
-\begin{figure}[ht]
+\begin{figure}[t]
   \begin{center}
     \includegraphics[width=1\textwidth]{images/http-and-coap-stack.pdf}
     \caption{HTTP and CoAP Stack Comparison}
@@ -144,7 +144,7 @@ Level 2 is called ``Exactly once delivery'', when the message will be received a
 WAMP, however, does not support such QoS control. Finally, WAMP has been officially registered in the WebSocket Subprotocol Name Registry, while MQTT is not a member.
 
 \subsection{Comparison}
-In terms of the transport layer, CoAP works on UDP, while WAMP and MQTT work on TCP. As for the means of fetching resources, the three protocols differ from each other. WAMP retrieves resources over WebSockets, while CoAP retrieves via HTTP requests and MQTT retrieves over BSD Sockets. WAMP is the only protocol that is compatible with browsers directly, while CoAP and MQTT can not interact with browsers directly. For example, CoAP can be applied on Firefox browser via a specific plugin. In terms of communication, all the three protocols need servers. For example, WAMP needs a WebSocket server supporting WAMP. In terms of messaging patterns, WAMP is the only protocol that supports RPC, while CoAP is still using the request/response model. However, all the three protocols support Pub/Sub. As for proxy compatibility and requirement, WAMP supports proxy via the WebSocket protocol, while CoAP built-in supports proxy. MQTT needs an external proxy to translate the protocol, which implies delay in communication. Table \ref{table:WAMPCoAPandMQTTcomparison} is a summary of the comparison between WAMP, CoAP and MQTT.
+In terms of the transport layer, CoAP works on UDP, while WAMP and MQTT work on TCP. As for the means of fetching resources, the three protocols differ from each other. WAMP retrieves resources over WebSockets, while CoAP retrieves via HTTP requests and MQTT retrieves over BSD Sockets. WAMP is the only protocol that is compatible with browsers directly, while CoAP and MQTT can not interact with browsers directly. For example, CoAP can be applied on a Firefox browser via a specific plugin. In terms of communication, all the three protocols need servers. For example, WAMP needs a WebSocket server supporting WAMP. In terms of messaging patterns, WAMP is the only protocol that supports RPC, while CoAP is still using the request/response model. However, all the three protocols support Pub/Sub. As for proxy compatibility and requirements, WAMP supports proxy via the WebSocket protocol, while CoAP built-in supports proxy. MQTT needs an external proxy to translate the protocol, which implies delay in communication. Table \ref{table:WAMPCoAPandMQTTcomparison} is a summary of the comparison between WAMP, CoAP and MQTT.
 
 % If you need to have linefeeds (\\) inside a cell, you must create a new
 % paragraph-formatting environment inside the cell. Most common ones are 

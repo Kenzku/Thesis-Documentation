@@ -1,5 +1,8 @@
-\chapter{Related Protocols}
+\begin{appendices}
+\chapter{Related Protocols and Formats}
 \label{chapter:first-appendix}
+
+In this appendix, we will introduce the protocols and formats that we mentioned in this thesis.
 
 \section{JSON}
 
@@ -13,16 +16,20 @@ Uniform Resource Identifiers (URIs) provide a simple and extensible means for id
 Extensible Markup Language (XML) is a markup language that was designed to transport and store data. Furthermore, XML was designed to be self-describing and can be used straightforward over the Internet. XML has been widely used, for example, the SOAP protocol that we mentioned in the thesis. 
 
 
-\chapter{Screenshots}
+\chapter{Implementation Details}
 \label{chapter:second-appendix}
+
+In this appendix, we will show the screenshots of the aforementioned web-based applications. We will also briefly introduce the libraries we used in the implementation. 
 
 \section{Web-based IoT Applications Screenshots}
 
 \subsection{Smart Lighting and Control Application}
 
+In this implementation, we used WAMP.IO\footnote{https://github.com/nicokaiser/wamp.io}, a WAMP server library, to attach to a WebSocket server running on NodeJS. As for the front-end, we used AutobahnJS\footnote{http://autobahn.ws/js}, a WAMP client library, to connect to the WAMP server.
+
 Figure \ref{fig:screen-shot-home-auto} shows the visualisation of the lights changing according to the sun brightness, for the purpose of keeping the light brightness in a constant level.
 
-\begin{figure}[ht]
+\begin{figure}[t]
   \begin{center}
     \includegraphics[width=1\textwidth]{images/screen-shot-home-auto.pdf}
     \caption{Visualisation of Lights Changing According to the Sun}
@@ -32,7 +39,7 @@ Figure \ref{fig:screen-shot-home-auto} shows the visualisation of the lights cha
 
 Figure \ref{fig:screen-shot-home-auto-2} shows the visualisation of remote controlling lights status.
 
-\begin{figure}[ht]
+\begin{figure}[t]
   \begin{center}
     \includegraphics[width=1\textwidth]{images/screen-shot-home-auto-2.pdf}
     \caption{Visualisation of Remote Controlling Lights}
@@ -42,9 +49,11 @@ Figure \ref{fig:screen-shot-home-auto-2} shows the visualisation of remote contr
 
 \subsection{Social Sensing Application}
 
+In this implementation, we built the customised web interface by using BackboneJS\footnote{http://backbonejs.org/}, which simplifies the process of handling data and connecting to the database. We also used D3\footnote{http://d3js.org/} library to visualise the data.
+
 Figure \ref{fig:screen-shot-social-sensing-map} shows the social sensing application based on geo-location. The density of the nodes is visualised in heat map. This is, the colour scale is the reflection of the number of nodes at a place.
 
-\begin{figure}[ht]
+\begin{figure}[t]
   \begin{center}
     \includegraphics[width=1\textwidth]{images/screen-shot-social-sensing-map.pdf}
     \caption{Visualisation of Social Sensing based on Geo-location}
@@ -54,7 +63,7 @@ Figure \ref{fig:screen-shot-social-sensing-map} shows the social sensing applica
 
 Figure \ref{fig:screen-shot-social-sensing-netowrk} shows the social sensing application based on nodes interconnection.
 
-\begin{figure}[ht]
+\begin{figure}[t]
   \begin{center}
     \includegraphics[width=1\textwidth]{images/screen-shot-social-sensing-netowrk.pdf}
     \caption{Visualisation of Social Sensing based on Nodes Interconnection}
@@ -63,10 +72,12 @@ Figure \ref{fig:screen-shot-social-sensing-netowrk} shows the social sensing app
 \end{figure}
 Figure \ref{fig:screen-shot-social-sensing-network-data} shows the visualisation of data in database-centric approach.
 
-\begin{figure}[ht]
+\begin{figure}[t]
   \begin{center}
     \includegraphics[width=1\textwidth]{images/screen-shot-social-sensing-network-data.pdf}
     \caption{Visualisation of Data in Database-centric Approach}
     \label{fig:screen-shot-social-sensing-network-data}
   \end{center}
 \end{figure}
+
+\end{appendices}

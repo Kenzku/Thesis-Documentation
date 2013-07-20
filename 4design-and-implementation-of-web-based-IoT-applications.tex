@@ -1,4 +1,4 @@
-\chapter{Design and Implementation of Web-based IoT Applications}
+\chapter[Web-based IoT Applications]{Design and Implementation of Web-based IoT Applications}
 \label{chapter:Design-and-Implementation-of-Web-based-IoT-Applications}
 
 In this chapter, we will start with the patterns applied for web-based IoT applications. Then we will discuss the design and implementation of our web-based IoT applications which match the pattern.
@@ -13,7 +13,7 @@ Remote Procedure Call (RPC) is one of the Inter-Process Communication methods fo
 
 RPC can be further developed into a massage pattern\footnote{http://wamp.ws/faq\#rpc} involving two roles, client and server. Usually, RPC pattern is initiated by a client, which sends an request to a remote server; The server processes based on the request, then responses to the client. An example of RPC pattern is shown in Figure \ref{fig:RPC-pattern}. The client starts its procedure sequence when the programme is running. The procedure sequence starts with Procedure 1. The client, afterwards, needs the result from Procedure 2 which locates on the Server. Thus, it sends a request to the server. The server handles the logic when the request comes, and thus it starts Procedure 2. At the moment, the Client is waiting for the result until the server responses to the client. With the result, the client can now continue to execute the next procedure, Procedure 3.  
 
-\begin{figure}[ht]
+\begin{figure}[t]
   \begin{center}
     \includegraphics[width=1\textwidth]{images/RPC-pattern.pdf}
     \caption{An Example of RPC Pattern}
@@ -33,7 +33,7 @@ Pub/Sub architecture consists, usually, at least publishers, subscribers and a b
 
 An example of Pub/Sub pattern is shown in Figure \ref{fig:publish-subscribe-pattern}. Client 1 plays roles in both subscriber and publisher in different stages. i.e., When it subscribes topic 1, client 1 is treated as a subscriber. Client 1, however, changes to a publisher when it publishes a message with the topic (topic 1). The broker analyses the message and maps the topic to the subscribers who are interested in the topics. In this case, both Client 1 and Client 2 are interested in the topic. Hence, the broker replies the message to both of them. Client 1, and thus, changes its role to a subscriber.
 
-\begin{figure}[ht]
+\begin{figure}[t]
   \begin{center}
     \includegraphics[width=1\textwidth]{images/publish-subscribe-pattern.pdf}
     \caption{An Example of Publish/Subscribe Pattern}
@@ -53,24 +53,24 @@ Database-centric is a software architecture where database plays critical role. 
 
 An example of implementing a database-centric IoT service has been discussed in \cite{francesco2012storage}. The approach merges the features of database-centric approach with the demands of IoT services, and provides customised features for IoT services. Thus, the approach, firstly, supports heterogeneous and multimedia contents; Secondly, it provides standard APIs for standard web services, and thus the IoT data can be utilised at optimally maximum; Finally, live notification is supported and security features are applied.
 
-In this pattern, data are transferred through REST APIs with HTTP Requests. This means, there is an immediate layer between a client and the database, which translates the raw data from database to a format that the client requests. As for real-time notification, most database has already natively resolve updating data or data changed notification. However, the real-time notification passage between the database and the client needs to be defined in the immediate layer. For example, Ajax techniques (such as polling and long polling) can be applied. That is, the immediate layer handles the opening connections over HTTP between itself and the client, for purpose of informing the client as needed. Some database, like CouchDB, has built-in immediate layer. Thus, the CouchDB handles the connections directly. Figure \ref{fig:immediate-layer} shows the logic of immediate layer.
+In this pattern, data are transferred through REST APIs with HTTP Requests. This means, there is an intermediate layer between a client and the database, which translates the raw data from database to a format that the client requests. As for real-time notifications, most database has already natively provided notifications for added or updated data. However, the real-time notification passage between the database and the client needs to be defined in the intermediate layer. For example, Ajax techniques (such as polling and long polling) can be applied. That is, the intermediate layer handles the opening connections over HTTP between itself and the client, for purpose of informing the client as needed. Some database, like CouchDB, has built-in intermediate layer. Thus, the CouchDB handles the connections directly. Figure \ref{fig:intermediate-layer} shows the logic of intermediate layer.
 
-\begin{figure}[ht]
+\begin{figure}[t]
   \begin{center}
-    \includegraphics[width=1\textwidth]{images/immediate-layer.pdf}
-    \caption{Immediate Layer Structure in Database-centric Approach}
-    \label{fig:immediate-layer}
+    \includegraphics[width=1\textwidth]{images/intermediate-layer.pdf}
+    \caption{intermediate Layer Structure in Database-centric Approach}
+    \label{fig:intermediate-layer}
   \end{center}
 \end{figure}
 
 \section{Smart Lighting and Control Application}
 
-In this section, we will expound on our home automation implementation, the Smart Lighting and Control Application. We will start with its components. Then we will explain the components interconnection in backend and front-end. We will also cover the role of the aforementioned patterns in this application.
+In this section, we will discuss on our home automation implementation, the Smart Lighting and Control Application. We will start with its components. Then we will explain the components interconnection in backend and front-end. We will also cover the role of the aforementioned patterns in this application.
 
 \subsection{Components}
 In the thesis, we built an HTML5 based application to demonstrate a smart lighting and controlling IoT service. The concept of the sample service consists the following elements: a light, a switch, a sensor and the sun. The light is a component that visualises the light status. The switch is a component that represents an actuator that can control the light. The sensor is a component that senses the environment brightness. The sun represents the environment. The change of the luminance from the sun affects on the sensor which then affects on the light. The luminance of the light will be, subsequently, adjusted. The service allows the light to keep the brightness of a space constantly, or to be adjusted by the switch: on, off or to dim. The relationship among the components is shown in Figure \ref{fig:components-relationship}. 
 
-\begin{figure}[ht]
+\begin{figure}[t]
   \begin{center}
     \includegraphics[width=1\textwidth]{images/components-relationship.pdf}
     \caption{Components of The Smart Lighting and Control Application and Their Relationship}
@@ -81,7 +81,7 @@ In the thesis, we built an HTML5 based application to demonstrate a smart lighti
 \subsection{Implementation of The Backend}
 With the concept above, we implemented an embedded web server based on a NodeJS. We also attached a WebSocket server to the NodeJS, and a WAMP server on top of the WebSocket server. The embedded web server, then, understands the WebSocket protocol and the WAMP subprotocol. The component layer structure is shown in Figure  \ref{fig:component-layer-structure}. 
 
-\begin{figure}[ht]
+\begin{figure}[t]
   \begin{center}
     \includegraphics[width=0.5\textwidth]{images/component-layer-structure.pdf}
     \caption{Component Layer Structure}
@@ -122,7 +122,7 @@ In effect with simulation, we added an virtual component that simulates a light.
 
 Summary so far, the interface of a light sensor/switch (sensor/actuator) can be illustrated in Figure \ref{fig:component-interface}. in a generic way.
 
-\begin{figure}[ht]
+\begin{figure}[t]
   \begin{center}
     \includegraphics[width=0.7\textwidth]{images/component-interface.pdf}
     \caption{Component Interface}
@@ -132,7 +132,7 @@ Summary so far, the interface of a light sensor/switch (sensor/actuator) can be 
 
 To view the architecture, at a higher level, which we have exposed so far, the light sensor and the light switch are connected to a component with an embedded web server, or separately. This architecture is shown in Figure \ref{fig:component-nodeJS-interface}.
 
-\begin{figure}[ht]
+\begin{figure}[t]
   \begin{center}
     \includegraphics[width=1\textwidth]{images/component-nodeJS-interface.pdf}
     \caption{Components Connected to the Embedded Web Server}
@@ -145,7 +145,7 @@ The light sensor and the light switch are linked to a component respectively. Th
 \subsection{Implementation of The Front-end}
 However, the current system should be accessible from outside, such as by end users. We implemented this via a web front-end interface. 
 
-The structure is layered at front. Concerning the connection is over WebSocket, a WebSocket layer is arranged at the bottom. The WebSocket layer handles the connection with the embedded web server. 
+The structure is layered at front. Concerning the connection is over WebSockets, a WebSocket layer is arranged at the bottom. The WebSocket layer handles the connection with the embedded web server. 
 
 The communication coming from the embedded web server, is however, using WAMP protocol. Thus, we added another layer, WAMP layer, on top of the WebSocket layer. With these two layers, the front-end and the backend can, now, communicate.
 
@@ -153,7 +153,7 @@ We also would like to control the backend, and thus we added another layer, APIs
 
 This architecture is shown in Figure \ref{fig:front-end-layer-structure}.
 
-\begin{figure}[ht]
+\begin{figure}[t]
   \begin{center}
     \includegraphics[width=0.5\textwidth]{images/front-end-layer-structure.pdf}
     \caption{Front-end Layer Structure}
@@ -164,7 +164,7 @@ This architecture is shown in Figure \ref{fig:front-end-layer-structure}.
 \subsection{Overall Structure}
 We have covered end users, front-end structure and backend structure. Now, we can link them together. This architecture is shown in Figure \ref{fig:communication-structure-with-user}.
 
-\begin{figure}[ht]
+\begin{figure}[t]
   \begin{center}
     \includegraphics[width=1\textwidth]{images/communication-structure-with-user.pdf}
     \caption{Overall Structure}
@@ -177,7 +177,7 @@ The APIs layer connects users and the interface provided by the backend. WAMP Cl
 \subsection{The Role of Messaging Patterns}
 Previously, we have discussed Pub/Sub and RFC. These two pattens, handled by WAMP layer, cover the two most important interactions in Internet of Things: notification and command. Here, we discuss how are they integrated in the sample. This architecture with message patterns is shown in Figure \ref{fig:message-pattern-overall-structure}.
 
-\begin{figure}[ht]
+\begin{figure}[t]
   \begin{center}
     \includegraphics[width=1\textwidth]{images/message-pattern-overall-structure.pdf}
     \caption{Overall Structure with Massage Patterns}
@@ -204,9 +204,9 @@ Furthermore, the sample application is extensible by integrating third party API
 The underlying infrastructure of application handles scaling such as distributing and clustering. This feature satisfies the same demand in IoT services.
 
 \subsection{Stack and Architecture}
-Social Network IoT Sensing Application is a CouchApp\footnote{http://couchapp.org/page/index}, a Javascript and HTML5 application served directly from CouchDB. CouchDB is a documented-oriented database. Data are stored in JSON documents and are accessed with a web browser via HTTP. CouchDB is, also, designed for data distribution and replication. In short, CouchDB provides scalability and flexibility. These features are meaningful to the challenges\cite{francesco2012storage} - heterogeneity and scale - in IoT services. Its layer stack is shown in Figure \ref{fig:data-centre-app-stack}.
+Social Network IoT Sensing Application is a CouchApp\footnote{http://couchapp.org/page/index}, a Javascript and HTML5 application served directly from CouchDB. CouchDB is a documented-oriented database. Data are stored in JSON documents and are accessed with a web browser via HTTP. CouchDB is, also, designed for data distribution and replication. In short, CouchDB provides scalability and flexibility. These features are meaningful to the challenges \cite{francesco2012storage} - heterogeneity and scale - in IoT services. Its layer stack is shown in Figure \ref{fig:data-centre-app-stack}.
 
-\begin{figure}[ht]
+\begin{figure}[t]
   \begin{center}
     \includegraphics[width=0.5\textwidth]{images/data-centre-app-stack.pdf}
     \caption{Social Network IoT Sensing Application Layer Stack}
@@ -220,7 +220,7 @@ CouchApp inherited these features from CouchDB. Furthermore, CouchApp is extensi
 
 The architecture of the sample application is shown in Figure \ref{fig:data-centre-architecture}.
 
-\begin{figure}[ht]
+\begin{figure}[t]
   \begin{center}
     \includegraphics[width=1\textwidth]{images/data-centre-architecture.pdf}
     \caption{Social Network IoT Sensing Application Architecture \cite{francesco2012storage}}

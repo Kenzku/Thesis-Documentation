@@ -1,7 +1,7 @@
 \chapter{Evaluation}
 \label{chapter:evaluation}
 
-\section{Origin and Justification}
+\section{Reference Scenario}
 We planned to build an IoT service with web technology that differed from the pervious solution, database-centric approach, which largely relies on Ajax for data exchange. 
 
 The prevision of the thesis was constructed in two parts: web technology and IoT; Its solution should integrate the two parts into a coherent service. Following the consideration of HTML5 connectivity features, we focused on the WebSocket protocol which fills the part of web technology. As for IoT, which covers a wide area, we selected one scenario, smart lighting control, with sensor and actuator from many IoT visions such as NFC applications, smart housing and phones connectivity. 
@@ -36,10 +36,10 @@ A sensor, generally, converts physical quantity into digital signal which can be
 
 As for the sun, we also ported it to the software level. To do so, we made a programme that generated a sequence of numbers periodically increasing to a peak then recurring.
 
-\section{Measurement}
+\section{Measurements}
 We measured about overheads and Roundtrip Delayed Time (RTT) comparing WAMP with MQTT. Figure \ref{fig:overhead} illustrates the message overheads on WAMP and MQTT.
 
-\begin{figure}[ht]
+\begin{figure}[t]
   \begin{center}
     \includegraphics[width=0.7\textwidth]{images/overhead.pdf}
     \caption{Message Overhead}
@@ -51,7 +51,7 @@ WAMP shows its lightweight design better than that of MQTT. For each 20 bytes of
 
 Figure \ref{fig:rtt} illustrates the message RTT on WAMP and MQTT.
 
-\begin{figure}[ht]
+\begin{figure}[t]
   \begin{center}
     \includegraphics[width=0.7\textwidth]{images/rtt.pdf}
     \caption{Message RTT}
@@ -69,7 +69,7 @@ In the scenario of the smart lighting and controlling application, the scaling i
 As for the database-centric pattern, the CouchDB solution naturally provides a reliable and flexible way to scale horizontally and to replicate, with the growing amount of data. The database acts as a hub between IoT devices and end users, while it can be further developed into cloud-based architecture which maximises its scalability. 
 
 \section{Security}
-The WebSocket protocol supports connections over Transport Layer Security (TLS). TSL provides communications security over the Internet \cite{dierks2008rfc}. Furthermore, the WebSocket protocol providers applicable security considerations as the followings\cite{rfc64552012web}: 
+The WebSocket protocol supports connections over Transport Layer Security (TLS). TSL provides communications security over the Internet \cite{dierks2008rfc}. Furthermore, the WebSocket protocol providers applicable security considerations as the followings \cite{rfc64552012web}: 
 
 \begin{itemize}
 % You can use this command to set the items in the list closer to each other
