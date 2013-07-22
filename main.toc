@@ -18,7 +18,7 @@
 \contentsline {subsection}{\numberline {2.3.1}WAMP}{18}{subsection.2.3.1}
 \contentsline {subsection}{\numberline {2.3.2}Other Registered Subprotocols}{19}{subsection.2.3.2}
 \contentsline {chapter}{\numberline {3}Internet of Things}{21}{chapter.3}
-\contentsline {section}{\numberline {3.1}Things: Bridging The Real and The Virtual World}{21}{section.3.1}
+\contentsline {section}{\numberline {3.1}Things: Bridging the Real and the Virtual World}{21}{section.3.1}
 \contentsline {subsection}{\numberline {3.1.1}NFC and WSANs}{22}{subsection.3.1.1}
 \contentsline {subsection}{\numberline {3.1.2}Spime and Smart Items}{22}{subsection.3.1.2}
 \contentsline {section}{\numberline {3.2}Sensors and Actuators}{23}{section.3.2}
