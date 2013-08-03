@@ -1,3 +1,4 @@
+%!TEX root = /Users/Ken/Dropbox/Master's Thesis/Paper/my thesis/main.tex
 \chapter{Internet of Things}
 \label{chapter:internetofthings} 
 
@@ -63,18 +64,18 @@ When a request is sent to a web service layer, this layer will start a procedure
 In the following, we will talk about a sequence of protocols that can be used in Web Services.
 
 \subsection{REST}
-Representational State Transfer (REST) is introduced by Roy T. Fielding in his doctoral dissertation in 2000 \cite{fielding2002principled}. REST is a web architectural style. It is, however, not a standard or protocol. 
+Representational State Transfer (REST) is introduced by Roy T.~Fielding in his doctoral dissertation in 2000 \cite{fielding2002principled}. REST is a web architectural style. It is, however, not a standard or protocol. 
 
 An architectural style is ``a coordinated set of architectural constraints that restricts the roles and features of architectural elements, and the allowed relationships among those elements, within any architecture that conforms to the style. Thus, a style provides a name by which we can refer to a packaged set of architectural design decisions and the set of architectural properties that are induced by applying the style.'' \cite {fielding2002principled}
 
 REST was developed in parallel with HTTP protocols with the basic four constraints: resources identified by URI; resources manipulated by standard HTTP methods; resources with various representations; and stateless communication. Resources are data that can be addressed by URIs, which further implies resources are differed by URIs. A representation is a way to present resources. For example, a text, an Image or an HTML document. The representation, moreover, consists of metadata describing the data and, occasionally, metadata describing metadata.
 
-All REST communications are stateless. Thus, each request involves all the necessary information that a receiver needs to understand the request. An example of stateless design is shown in Figure \ref{fig:stateless-design} \cite{rodriguez2008restful}
+All REST communications are stateless. Thus, each request involves all the necessary information that a receiver needs to understand the request. An example of stateless design is shown in Figure \ref{fig:stateless-design} \cite{rodriguez2008restful}.
 
 \begin{figure}[t]
   \begin{center}
     \includegraphics[width=1\textwidth]{images/stateless-design.pdf}
-    \caption{Stateless Design}
+    \caption{Stateless Design \cite{rodriguez2008restful}}
     \label{fig:stateless-design}
   \end{center}
 \end{figure}
@@ -86,7 +87,7 @@ On the contrary, stateful design, as shown by Figure \ref{fig:stateful-design} \
 \begin{figure}[t]
   \begin{center}
     \includegraphics[width=1\textwidth]{images/stateful-design.pdf}
-    \caption{Stateful Design}
+    \caption{Stateful Design \cite{rodriguez2008restful}}
     \label{fig:stateful-design}
   \end{center}
 \end{figure}
